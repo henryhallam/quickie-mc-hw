@@ -1,4 +1,4 @@
-update=Sun 31 Jul 2016 06:29:38 PM PDT
+update=Thu 04 Aug 2016 03:23:19 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,4 @@ LibName29=valves
 LibName30=sictroller
 LibName31=TMDSCNCD28069
 LibName32=74LVC8T245
+LibName33=MAX4195
