@@ -47,10 +47,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 750  7900 0    60   ~ 0
-TODO (minimal):\nAux ADC and other signals on controlcard
 Text Notes 3600 7900 0    60   ~ 0
-TODO (better):\nWelded contactor detection / protection\nLV from HV, LV batt charging?\nTemperature - motor, heatsink, power stage, air, batt?\nCrosslink to other string\nHuman interface\nContactor outputs (3 phases + bus + ?)\nADC precision reference\nCrystal oscillator\nGPS and air data interface
+TODO (V2):\nWelded contactor detection / protection\nLV from HV, LV batt charging?\nTemperature - motor, heatsink, power stage, air, batt?\nCrosslink to other string\nHuman interface\nContactor outputs (3 phases + bus + ?)\nADC precision reference\nCrystal oscillator\nGPS and air data interface
 $Sheet
 S 4750 1500 2350 1850
 U 57A162B5
