@@ -81,17 +81,6 @@ F 3 "" H 4550 1300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TMDSCNCD28069 J3
-U 1 1 57A180A1
-P 3700 3650
-F 0 "J3" H 3050 1500 50  0000 C CNN
-F 1 "TMDSCNCD28069" H 4050 1500 50  0000 C CNN
-F 2 "sictroller:5390213-1" H 3700 3650 50  0001 C CNN
-F 3 "DOCUMENTATION" H 3700 3550 50  0001 C CNN
-	1    3700 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L +5VD #PWR04
 U 1 1 57A180A8
 P 4700 4650
@@ -135,64 +124,6 @@ F 3 "" H 2700 4650 50  0000 C CNN
 	1    2700 4650
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2700 1750 2600 1750
-Wire Wire Line
-	2600 1300 2600 2350
-Wire Wire Line
-	2600 1950 2700 1950
-Wire Wire Line
-	2600 2150 2700 2150
-Connection ~ 2600 1950
-Wire Wire Line
-	2600 2350 2700 2350
-Connection ~ 2600 2150
-Connection ~ 2600 2350
-Wire Wire Line
-	1950 2250 2700 2250
-Wire Wire Line
-	1350 2050 2700 2050
-Wire Wire Line
-	2400 1850 2700 1850
-Wire Wire Line
-	2400 1650 2700 1650
-Wire Wire Line
-	2400 2650 2700 2650
-Wire Wire Line
-	2400 2850 2700 2850
-Wire Wire Line
-	1850 3050 2700 3050
-Wire Wire Line
-	4700 1750 4800 1750
-Wire Wire Line
-	4800 1300 4800 2350
-Wire Wire Line
-	4800 2350 4700 2350
-Wire Wire Line
-	4700 2150 4800 2150
-Connection ~ 4800 2150
-Wire Wire Line
-	4700 1950 4800 1950
-Connection ~ 4800 1950
-Wire Wire Line
-	4550 1300 4800 1300
-Connection ~ 4800 1750
-Wire Wire Line
-	4700 1650 5000 1650
-Wire Wire Line
-	4700 1850 5000 1850
-Wire Wire Line
-	4700 2050 5000 2050
-Wire Wire Line
-	5000 2250 4700 2250
-Wire Wire Line
-	5000 2450 4700 2450
-Wire Wire Line
-	4700 2650 5000 2650
-Wire Wire Line
-	5000 2850 4700 2850
-Wire Wire Line
-	4700 3050 5000 3050
 $Comp
 L +5VD #PWR08
 U 1 1 57A180E0
@@ -204,8 +135,6 @@ F 3 "" H 4700 3650 50  0000 C CNN
 	1    4700 3650
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2400 2450 2700 2450
 $Comp
 L GNDD #PWR09
 U 1 1 57A180E7
@@ -228,9 +157,6 @@ F 3 "" H 2700 3650 50  0000 C CNN
 	1    2700 3650
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2600 1300 2850 1300
-Connection ~ 2600 1750
 Text HLabel 5000 1650 2    60   Input ~ 0
 VFB_A
 Text HLabel 5000 1850 2    60   Input ~ 0
@@ -269,30 +195,23 @@ Text HLabel 4700 3350 2    60   Output ~ 0
 PWM_BL
 Text HLabel 4700 3450 2    60   Output ~ 0
 PWM_CL
-Text Label 2400 2050 2    60   ~ 0
+Text Label 1400 2350 0    60   ~ 0
 ADC_B2
-Text Label 2400 2250 2    60   ~ 0
+Text Label 1400 2450 0    60   ~ 0
 ADC_B3
-Text Label 2400 3050 2    60   ~ 0
+Text Label 1400 2750 0    60   ~ 0
 ADC_B7
 NoConn ~ 2700 3550
-NoConn ~ 2700 2950
-NoConn ~ 2700 2750
 NoConn ~ 4700 2750
 NoConn ~ 4700 2950
 NoConn ~ 4700 3150
 NoConn ~ 4700 3550
-NoConn ~ 2700 3150
 NoConn ~ 2700 3750
 NoConn ~ 2700 3850
 NoConn ~ 2700 3950
 NoConn ~ 2700 4150
 NoConn ~ 2700 4250
-NoConn ~ 2700 4350
-NoConn ~ 2700 4450
-NoConn ~ 2700 4550
 NoConn ~ 2700 4950
-NoConn ~ 2700 5050
 NoConn ~ 2700 5150
 NoConn ~ 2700 5250
 NoConn ~ 2700 5350
@@ -308,18 +227,10 @@ Text HLabel 4950 4050 2    60   Input ~ 0
 ~FLT_DESAT
 Text HLabel 2550 4050 0    60   Input ~ 0
 ~FLT_OTP
-Wire Wire Line
-	2550 4050 2700 4050
-Wire Wire Line
-	4700 4050 4950 4050
 Text HLabel 4950 4250 2    60   Input ~ 0
 PWR_RDY
 Text HLabel 4950 4350 2    60   Output ~ 0
 ~PWR_RESET
-Wire Wire Line
-	4950 4250 4700 4250
-Wire Wire Line
-	4700 4350 4950 4350
 $Comp
 L FDG1024NZ Q1
 U 1 1 57A7B53E
@@ -364,8 +275,6 @@ F 3 "" H 7900 5100 50  0000 C CNN
 	1    7900 5100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4700 4950 6150 4950
 $Comp
 L R_Small R1
 U 1 1 57A7BAAF
@@ -377,9 +286,6 @@ F 3 "" H 8250 4200 50  0000 C CNN
 	1    8250 4200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6450 4550 6450 4700
-Connection ~ 6450 4650
 $Comp
 L +15V #PWR013
 U 1 1 57A7BE58
@@ -395,14 +301,6 @@ Text Notes 6550 5750 0    60   ~ 0
 Todo: this contactor coil eats a\nsignificant fraction of the +15V\nsupply current... better options?
 Text Notes 6650 3550 0    60   ~ 0
 +HV contactor and precharge relay
-Wire Wire Line
-	4700 5050 6150 5050
-Wire Wire Line
-	6150 5050 6150 5350
-Wire Wire Line
-	6150 5350 7600 5350
-Wire Wire Line
-	7600 5350 7600 4950
 $Comp
 L CONN_01X03 J4
 U 1 1 57A7D4A7
@@ -414,8 +312,6 @@ F 3 "" H 8450 4550 50  0000 C CNN
 	1    8450 4550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6450 4550 8250 4550
 $Comp
 L D_Schottky_x2_KCom_AKA D1
 U 1 1 57A7D567
@@ -424,72 +320,32 @@ F 0 "D1" H 7250 4325 50  0000 C CNN
 F 1 "D_Schottky_x2_KCom_AKA" H 7250 4415 50  0001 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-323" H 7250 4200 50  0001 C CNN
 F 3 "" H 7250 4200 50  0000 C CNN
+F 4 "Digikey" H 7250 4200 60  0001 C CNN "Supplier"
+F 5 "497-5550-1-ND" H 7250 4200 60  0001 C CNN "SKU"
 	1    7250 4200
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	6950 4200 6950 4550
-Connection ~ 6950 4550
-Wire Wire Line
-	7550 4200 7550 4650
-Wire Wire Line
-	7550 4650 8250 4650
-Wire Wire Line
-	7900 4700 7900 4650
-Connection ~ 7900 4650
-$Comp
-L CONN_01X05 J1
-U 1 1 57A7DCAD
-P 1150 2250
-F 0 "J1" H 1069 1825 50  0000 C CNN
-F 1 "CONN_01X05" H 1069 1916 50  0000 C CNN
-F 2 "Connectors_Molex:Connector_Molex_PicoBlade_53398-0571" H 1150 2250 50  0001 C CNN
-F 3 "" H 1150 2250 50  0000 C CNN
-	1    1150 2250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1350 2150 1950 2150
-Wire Wire Line
-	1950 2150 1950 2250
-Wire Wire Line
-	1350 2250 1850 2250
-Wire Wire Line
-	1850 2250 1850 3050
 $Comp
 L GNDD #PWR014
 U 1 1 57A7DFB4
-P 1350 2600
-F 0 "#PWR014" H 1350 2350 50  0001 C CNN
-F 1 "GNDD" H 1350 2450 50  0000 C CNN
-F 2 "" H 1350 2600 50  0000 C CNN
-F 3 "" H 1350 2600 50  0000 C CNN
-	1    1350 2600
+P 1350 3050
+F 0 "#PWR014" H 1350 2800 50  0001 C CNN
+F 1 "GNDD" H 1350 2900 50  0000 C CNN
+F 2 "" H 1350 3050 50  0000 C CNN
+F 3 "" H 1350 3050 50  0000 C CNN
+	1    1350 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1350 2450 1350 2600
 $Comp
 L +5VD #PWR015
 U 1 1 57A7E048
-P 1350 2350
-F 0 "#PWR015" H 1350 2200 50  0001 C CNN
-F 1 "+5VD" H 1350 2490 50  0000 C CNN
-F 2 "" H 1350 2350 50  0000 C CNN
-F 3 "" H 1350 2350 50  0000 C CNN
-	1    1350 2350
+P 1350 2950
+F 0 "#PWR015" H 1350 2800 50  0001 C CNN
+F 1 "+5VD" H 1350 3090 50  0000 C CNN
+F 2 "" H 1350 2950 50  0000 C CNN
+F 3 "" H 1350 2950 50  0000 C CNN
+	1    1350 2950
 	0    1    1    0   
-$EndComp
-$Comp
-L CONN_01X08 J2
-U 1 1 57A7E1B2
-P 1200 5100
-F 0 "J2" H 1119 4525 50  0000 C CNN
-F 1 "CONN_01X08" H 1119 4616 50  0000 C CNN
-F 2 "Connectors_Molex:Connector_Molex_PicoBlade_53398-0871" H 1200 5100 50  0001 C CNN
-F 3 "" H 1200 5100 50  0000 C CNN
-	1    1200 5100
-	-1   0    0    1   
 $EndComp
 $Comp
 L GNDD #PWR016
@@ -502,10 +358,6 @@ F 3 "" H 1500 5550 50  0000 C CNN
 	1    1500 5550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1400 5450 1500 5450
-Wire Wire Line
-	1500 5450 1500 5550
 $Comp
 L +5VD #PWR017
 U 1 1 57A7E36C
@@ -517,48 +369,22 @@ F 3 "" H 1550 5350 50  0000 C CNN
 	1    1550 5350
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1400 5350 1550 5350
-Wire Wire Line
-	2700 4750 1400 4750
-Wire Wire Line
-	2700 4850 2000 4850
-Wire Wire Line
-	2000 4850 2000 4950
-Wire Wire Line
-	2000 4950 1400 4950
-Wire Wire Line
-	4700 4750 5500 4750
 Text Label 5500 4750 2    60   ~ 0
 SPIA_MISO
-Text Label 1850 4850 2    60   ~ 0
+Text Label 1400 4850 0    60   ~ 0
 SPIA_MISO
-Wire Wire Line
-	1400 4850 1850 4850
-Text Label 1850 4750 2    60   ~ 0
+Text Label 1400 4750 0    60   ~ 0
 SPIA_MOSI
-Text Label 1850 4950 2    60   ~ 0
+Text Label 1400 4950 0    60   ~ 0
 SPIA_SCLK
-Wire Wire Line
-	2700 5450 2400 5450
-Wire Wire Line
-	2400 5450 2400 5250
-Wire Wire Line
-	2400 5250 1400 5250
-Text Label 1950 5250 2    60   ~ 0
+Text Label 1400 5250 0    60   ~ 0
 SDA/SYNCI
-Wire Wire Line
-	1400 5150 1950 5150
-Text Label 1950 5150 2    60   ~ 0
+Text Label 1400 5150 0    60   ~ 0
 SCL/SYNCO
-Wire Wire Line
-	1400 5050 1850 5050
-Text Label 1850 5050 2    60   ~ 0
+Text Label 1400 5050 0    60   ~ 0
 ~SPIA_CS
 Text Label 5400 4850 2    60   ~ 0
 ~SPIA_CS
-Wire Wire Line
-	5400 4850 4700 4850
 $Comp
 L TEST_1P W2
 U 1 1 57A7EB0A
@@ -583,15 +409,230 @@ F 3 "" H 2900 2550 50  0000 C CNN
 $EndComp
 Text Label 5450 5450 2    60   ~ 0
 SCL/SYNCO
+$Comp
+L CONN_01X08 J1
+U 1 1 57A7847F
+P 1150 2700
+F 0 "J1" H 1069 2125 50  0000 C CNN
+F 1 "CONN_01X08" H 1069 2216 50  0000 C CNN
+F 2 "Connectors_Molex:Connector_Molex_PicoBlade_53398-0871" H 1150 2700 50  0001 C CNN
+F 3 "" H 1150 2700 50  0000 C CNN
+	1    1150 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2700 1750 2600 1750
+Wire Wire Line
+	2600 1300 2600 2350
+Wire Wire Line
+	2600 1950 2700 1950
+Wire Wire Line
+	2600 2150 2700 2150
+Connection ~ 2600 1950
+Wire Wire Line
+	2600 2350 2700 2350
+Connection ~ 2600 2150
+Connection ~ 2600 2350
+Wire Wire Line
+	1950 2250 2700 2250
+Wire Wire Line
+	2400 1850 2700 1850
+Wire Wire Line
+	2400 1650 2700 1650
+Wire Wire Line
+	2400 2650 2700 2650
+Wire Wire Line
+	2400 2850 2700 2850
+Wire Wire Line
+	1850 3050 2700 3050
+Wire Wire Line
+	4700 1750 4800 1750
+Wire Wire Line
+	4800 1300 4800 2350
+Wire Wire Line
+	4800 2350 4700 2350
+Wire Wire Line
+	4700 2150 4800 2150
+Connection ~ 4800 2150
+Wire Wire Line
+	4700 1950 4800 1950
+Connection ~ 4800 1950
+Wire Wire Line
+	4550 1300 4800 1300
+Connection ~ 4800 1750
+Wire Wire Line
+	4700 1650 5000 1650
+Wire Wire Line
+	4700 1850 5000 1850
+Wire Wire Line
+	4700 2050 5000 2050
+Wire Wire Line
+	5000 2250 4700 2250
+Wire Wire Line
+	5000 2450 4700 2450
+Wire Wire Line
+	4700 2650 5000 2650
+Wire Wire Line
+	5000 2850 4700 2850
+Wire Wire Line
+	4700 3050 5000 3050
+Wire Wire Line
+	2400 2450 2700 2450
+Wire Wire Line
+	2600 1300 2850 1300
+Connection ~ 2600 1750
+Wire Wire Line
+	2550 4050 2700 4050
+Wire Wire Line
+	4700 4050 4950 4050
+Wire Wire Line
+	4950 4250 4700 4250
+Wire Wire Line
+	4700 4350 4950 4350
+Wire Wire Line
+	4700 4950 6150 4950
+Wire Wire Line
+	6450 4550 6450 4700
+Connection ~ 6450 4650
+Wire Wire Line
+	4700 5050 6150 5050
+Wire Wire Line
+	6150 5050 6150 5350
+Wire Wire Line
+	6150 5350 7600 5350
+Wire Wire Line
+	7600 5350 7600 4950
+Wire Wire Line
+	6450 4550 8250 4550
+Wire Wire Line
+	6950 4200 6950 4550
+Connection ~ 6950 4550
+Wire Wire Line
+	7550 4200 7550 4650
+Wire Wire Line
+	7550 4650 8250 4650
+Wire Wire Line
+	7900 4700 7900 4650
+Connection ~ 7900 4650
+Wire Wire Line
+	1350 2450 1950 2450
+Wire Wire Line
+	1950 2450 1950 2250
+Wire Wire Line
+	1400 5450 1500 5450
+Wire Wire Line
+	1500 5450 1500 5550
+Wire Wire Line
+	1400 5350 1550 5350
+Wire Wire Line
+	2700 4750 1400 4750
+Wire Wire Line
+	2700 4850 2000 4850
+Wire Wire Line
+	2000 4850 2000 4950
+Wire Wire Line
+	2000 4950 1400 4950
+Wire Wire Line
+	4700 4750 5500 4750
+Wire Wire Line
+	1400 4850 1850 4850
+Wire Wire Line
+	2700 5450 2400 5450
+Wire Wire Line
+	2400 5450 2400 5250
+Wire Wire Line
+	2400 5250 1400 5250
+Wire Wire Line
+	1400 5150 1900 5150
+Wire Wire Line
+	1400 5050 1750 5050
+Wire Wire Line
+	5400 4850 4700 4850
 Wire Wire Line
 	4700 5450 5450 5450
 Wire Wire Line
 	8250 4300 8250 4450
 Wire Wire Line
-	8250 4100 8250 4000
+	8250 4000 8250 4100
 Wire Wire Line
-	8250 4000 7250 4000
+	7250 4000 8250 4000
 Wire Wire Line
 	7750 3900 7750 4000
 Connection ~ 7750 4000
+Wire Wire Line
+	1850 2050 2700 2050
+Wire Wire Line
+	1850 2050 1850 2350
+Wire Wire Line
+	1850 2350 1350 2350
+Wire Wire Line
+	2700 3150 1750 3150
+Wire Wire Line
+	1750 3150 1750 2850
+Wire Wire Line
+	1750 2850 1350 2850
+Wire Wire Line
+	1850 3050 1850 2750
+Wire Wire Line
+	1850 2750 1350 2750
+Wire Wire Line
+	2700 2950 1950 2950
+Wire Wire Line
+	1950 2950 1950 2650
+Wire Wire Line
+	1950 2650 1350 2650
+Wire Wire Line
+	2700 2750 2050 2750
+Wire Wire Line
+	2050 2750 2050 2550
+Wire Wire Line
+	2050 2550 1350 2550
+Wire Wire Line
+	2150 5050 2700 5050
+Wire Wire Line
+	1400 4550 2700 4550
+Wire Wire Line
+	1400 4450 2700 4450
+Text Label 1400 4650 0    60   ~ 0
+GPIO22/TXB
+Wire Wire Line
+	2150 5050 2150 4650
+Wire Wire Line
+	2150 4650 1400 4650
+Text Label 1400 4350 0    60   ~ 0
+GPIO15/RXB
+Text Label 1400 4450 0    60   ~ 0
+GPIO24
+Text Label 1400 4550 0    60   ~ 0
+GPIO26
+Text Label 1400 2850 0    60   ~ 0
+GPIO56
+Text Label 1400 2550 0    60   ~ 0
+GPIO58
+Text Label 1400 2650 0    60   ~ 0
+GPIO54
+$Comp
+L CONN_01X12 J2
+U 1 1 57A7A3C2
+P 1200 4900
+F 0 "J2" H 1119 4125 50  0000 C CNN
+F 1 "CONN_01X12" H 1119 4216 50  0000 C CNN
+F 2 "Connectors_Molex:Connector_Molex_PicoBlade_53398-1271" H 1200 4900 50  0001 C CNN
+F 3 "" H 1200 4900 50  0000 C CNN
+	1    1200 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 4350 2700 4350
+$Comp
+L TMDSCNCD28069 J3
+U 1 1 57A180A1
+P 3700 3650
+F 0 "J3" H 3050 1500 50  0000 C CNN
+F 1 "TMDSCNCD28069" H 4050 1500 50  0000 C CNN
+F 2 "sictroller:5390213-1" H 3700 3650 50  0001 C CNN
+F 3 "DOCUMENTATION" H 3700 3550 50  0001 C CNN
+	1    3700 3650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
