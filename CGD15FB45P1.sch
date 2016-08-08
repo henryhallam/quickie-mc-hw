@@ -80,16 +80,8 @@ F 3 "" H 5850 3850 50  0000 C CNN
 	1    5850 3850
 	1    0    0    -1  
 $EndComp
-Text Label 4550 4750 0    60   ~ 0
-PWM_BL_
-Text Label 4550 4650 0    60   ~ 0
-PWM_CH_
-Text Label 4500 4550 0    60   ~ 0
-PWM_CL
 Text Label 6850 5250 0    60   ~ 0
 FLT_DESAT_TTL
-Text Label 3750 2100 2    60   ~ 0
-PWM_CL
 $Comp
 L R_Small R38
 U 1 1 57A190B9
@@ -116,12 +108,6 @@ F 3 "" H 7800 3900 50  0000 C CNN
 	1    7800 5050
 	1    0    0    -1  
 $EndComp
-Text Label 4500 5050 0    60   ~ 0
-PWM_AH
-Text Label 4500 4950 0    60   ~ 0
-PWM_AL
-Text Label 4500 4850 0    60   ~ 0
-PWM_BH
 $Comp
 L +15V #PWR073
 U 1 1 57A190F2
@@ -168,16 +154,6 @@ F 3 "" H 6000 4150 50  0000 C CNN
 	1    6000 4150
 	1    0    0    -1  
 $EndComp
-Text Label 2300 1900 0    60   ~ 0
-PWM_AH
-Text Label 2300 2000 0    60   ~ 0
-PWM_AL
-Text Label 2300 2100 0    60   ~ 0
-PWM_BH
-Text Label 3750 2000 2    60   ~ 0
-PWM_CH
-Text Label 2300 2200 0    60   ~ 0
-PWM_BL
 $Comp
 L +3.3V #PWR076
 U 1 1 57A19125
@@ -203,31 +179,7 @@ F 3 "" H 4150 2000 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8050 4450 8050 4550
-Wire Wire Line
-	8050 4550 8050 4650
-Wire Wire Line
-	8050 4650 8050 4750
-Wire Wire Line
-	8050 4750 8050 4850
-Wire Wire Line
-	8050 4850 8050 4950
-Wire Wire Line
-	8050 4950 8050 5050
-Wire Wire Line
-	8050 5050 8050 5150
-Wire Wire Line
-	8050 5150 8050 5250
-Wire Wire Line
-	8050 5250 8050 5350
-Wire Wire Line
-	8050 5350 8050 5450
-Wire Wire Line
-	8050 5450 8050 5550
-Wire Wire Line
-	8050 5550 8050 5650
-Wire Wire Line
-	8050 5650 8050 5850
+	8050 4450 8050 5850
 Connection ~ 8050 4550
 Connection ~ 8050 4750
 Connection ~ 8050 4650
@@ -253,29 +205,13 @@ Wire Wire Line
 Wire Wire Line
 	6850 4950 7550 4950
 Wire Wire Line
-	5850 3850 5850 3900
+	5850 3850 5850 4250
 Wire Wire Line
-	5850 3900 5850 4150
-Wire Wire Line
-	5850 4150 5850 4250
-Wire Wire Line
-	4950 5150 4950 5250
-Wire Wire Line
-	4950 5250 4950 5450
-Wire Wire Line
-	4950 5450 4950 5550
-Wire Wire Line
-	4950 5550 4950 5650
-Wire Wire Line
-	4950 5650 4950 5900
+	4950 5150 4950 5900
 Connection ~ 4950 5650
 Connection ~ 4950 5550
 Wire Wire Line
-	4950 3850 4950 3900
-Wire Wire Line
-	4950 3900 4950 4150
-Wire Wire Line
-	4950 4150 4950 4350
+	4950 3850 4950 4350
 Connection ~ 4950 5450
 Connection ~ 4950 5250
 Wire Wire Line
@@ -285,16 +221,10 @@ Wire Wire Line
 Wire Wire Line
 	4400 4850 4950 4850
 Wire Wire Line
-	4400 4750 4950 4750
-Wire Wire Line
-	4400 4650 4950 4650
-Wire Wire Line
 	4400 4550 4950 4550
 Connection ~ 5850 4150
 Wire Wire Line
-	7550 5450 7550 5550
-Wire Wire Line
-	7550 5550 7550 5650
+	7550 5450 7550 5650
 Wire Wire Line
 	7550 5650 7350 5650
 Wire Wire Line
@@ -315,17 +245,13 @@ Wire Wire Line
 Connection ~ 4950 3900
 Connection ~ 5850 3900
 Wire Wire Line
-	2300 1900 2700 1900
+	2550 1900 2700 1900
 Wire Wire Line
-	2300 2000 2700 2000
+	2550 2000 2700 2000
 Wire Wire Line
-	2300 2100 2700 2100
+	2550 2100 2700 2100
 Wire Wire Line
-	2300 2200 2700 2200
-Wire Wire Line
-	3300 2000 3750 2000
-Wire Wire Line
-	3300 2100 3750 2100
+	3300 2100 3450 2100
 Wire Wire Line
 	2550 2300 2700 2300
 Wire Wire Line
@@ -401,9 +327,7 @@ Text HLabel 6800 3000 2    60   Output ~ 0
 Wire Wire Line
 	4150 1850 4150 1900
 Wire Wire Line
-	4150 2100 4150 2150
-Wire Wire Line
-	4150 2150 4150 2200
+	4150 2100 4150 2200
 Wire Wire Line
 	4350 2150 4150 2150
 Connection ~ 4150 2150
@@ -426,9 +350,7 @@ PWM_CH
 Text HLabel 4400 4550 0    60   Input ~ 0
 PWM_CL
 Wire Wire Line
-	4150 4450 4250 4450
-Wire Wire Line
-	4250 4450 4950 4450
+	4150 4450 4950 4450
 Wire Wire Line
 	4250 4100 4250 4150
 Text Notes 7300 4200 0    60   ~ 0
@@ -559,4 +481,24 @@ Text Label 6550 4450 2    60   ~ 0
 ~PWR_RESET_TTL
 Wire Wire Line
 	5850 4450 6550 4450
+Text HLabel 2550 1900 0    60   Input ~ 0
+PWM_AH
+Text HLabel 2550 2000 0    60   Input ~ 0
+PWM_AL
+Text HLabel 2550 2100 0    60   Input ~ 0
+PWM_BH
+Text HLabel 2550 2200 0    60   Input ~ 0
+PWM_BL
+Text HLabel 3450 2000 2    60   Input ~ 0
+PWM_CH
+Text HLabel 3450 2100 2    60   Input ~ 0
+PWM_CL
+Wire Wire Line
+	2550 2200 2700 2200
+Wire Wire Line
+	3300 2000 3450 2000
+Wire Wire Line
+	4950 4650 4400 4650
+Wire Wire Line
+	4400 4750 4950 4750
 $EndSCHEMATC
