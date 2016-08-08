@@ -80,10 +80,10 @@ F 3 "" H 5850 3850 50  0000 C CNN
 	1    5850 3850
 	1    0    0    -1  
 $EndComp
-Text Label 4500 4750 0    60   ~ 0
-PWM_BL
-Text Label 4500 4650 0    60   ~ 0
-PWM_CH
+Text Label 4550 4750 0    60   ~ 0
+PWM_BL_
+Text Label 4550 4650 0    60   ~ 0
+PWM_CH_
 Text Label 4500 4550 0    60   ~ 0
 PWM_CL
 Text Label 6850 5250 0    60   ~ 0
@@ -203,7 +203,31 @@ F 3 "" H 4150 2000 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8050 4450 8050 5850
+	8050 4450 8050 4550
+Wire Wire Line
+	8050 4550 8050 4650
+Wire Wire Line
+	8050 4650 8050 4750
+Wire Wire Line
+	8050 4750 8050 4850
+Wire Wire Line
+	8050 4850 8050 4950
+Wire Wire Line
+	8050 4950 8050 5050
+Wire Wire Line
+	8050 5050 8050 5150
+Wire Wire Line
+	8050 5150 8050 5250
+Wire Wire Line
+	8050 5250 8050 5350
+Wire Wire Line
+	8050 5350 8050 5450
+Wire Wire Line
+	8050 5450 8050 5550
+Wire Wire Line
+	8050 5550 8050 5650
+Wire Wire Line
+	8050 5650 8050 5850
 Connection ~ 8050 4550
 Connection ~ 8050 4750
 Connection ~ 8050 4650
@@ -229,13 +253,29 @@ Wire Wire Line
 Wire Wire Line
 	6850 4950 7550 4950
 Wire Wire Line
-	5850 3850 5850 4250
+	5850 3850 5850 3900
 Wire Wire Line
-	4950 5150 4950 5900
+	5850 3900 5850 4150
+Wire Wire Line
+	5850 4150 5850 4250
+Wire Wire Line
+	4950 5150 4950 5250
+Wire Wire Line
+	4950 5250 4950 5450
+Wire Wire Line
+	4950 5450 4950 5550
+Wire Wire Line
+	4950 5550 4950 5650
+Wire Wire Line
+	4950 5650 4950 5900
 Connection ~ 4950 5650
 Connection ~ 4950 5550
 Wire Wire Line
-	4950 3850 4950 4350
+	4950 3850 4950 3900
+Wire Wire Line
+	4950 3900 4950 4150
+Wire Wire Line
+	4950 4150 4950 4350
 Connection ~ 4950 5450
 Connection ~ 4950 5250
 Wire Wire Line
@@ -252,7 +292,9 @@ Wire Wire Line
 	4400 4550 4950 4550
 Connection ~ 5850 4150
 Wire Wire Line
-	7550 5450 7550 5650
+	7550 5450 7550 5550
+Wire Wire Line
+	7550 5550 7550 5650
 Wire Wire Line
 	7550 5650 7350 5650
 Wire Wire Line
@@ -359,7 +401,9 @@ Text HLabel 6800 3000 2    60   Output ~ 0
 Wire Wire Line
 	4150 1850 4150 1900
 Wire Wire Line
-	4150 2100 4150 2200
+	4150 2100 4150 2150
+Wire Wire Line
+	4150 2150 4150 2200
 Wire Wire Line
 	4350 2150 4150 2150
 Connection ~ 4150 2150
@@ -382,7 +426,9 @@ PWM_CH
 Text HLabel 4400 4550 0    60   Input ~ 0
 PWM_CL
 Wire Wire Line
-	4150 4450 4950 4450
+	4150 4450 4250 4450
+Wire Wire Line
+	4250 4450 4950 4450
 Wire Wire Line
 	4250 4100 4250 4150
 Text Notes 7300 4200 0    60   ~ 0
