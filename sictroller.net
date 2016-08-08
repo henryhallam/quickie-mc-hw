@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/henry/motorctrl/sic/sictroller/sictroller.sch)
-    (date "Sun 07 Aug 2016 05:42:39 PM PDT")
+    (date "Sun 07 Aug 2016 05:45:13 PM PDT")
     (tool "Eeschema (2016-07-28 BZR 6996, Git e15ad93)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -91,7 +91,7 @@
       (tstamp 57A85972))
     (comp (ref W20)
       (value TEST_1P)
-      (footprint Measurement_Points:Measurement_Point_Round-SMD-Pad_Small)
+      (footprint Measurement_Points:Measurement_Point_Round-TH_Small)
       (libsource (lib conn) (part TEST_1P))
       (sheetpath (names /) (tstamps /))
       (tstamp 57A89327))
@@ -103,7 +103,7 @@
       (tstamp 57A8946B))
     (comp (ref W19)
       (value TEST_1P)
-      (footprint Measurement_Points:Measurement_Point_Round-TH_Small)
+      (footprint Measurement_Points:Measurement_Point_Round-SMD-Pad_Small)
       (libsource (lib conn) (part TEST_1P))
       (sheetpath (names /) (tstamps /))
       (tstamp 57A89F70))

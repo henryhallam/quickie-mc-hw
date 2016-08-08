@@ -270,7 +270,7 @@ U 1 1 57A89327
 P 7500 2450
 F 0 "W20" H 7550 2600 50  0000 L CNN
 F 1 "TEST_1P" H 7558 2479 50  0001 L CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7700 2450 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 7700 2450 50  0001 C CNN
 F 3 "" H 7700 2450 50  0000 C CNN
 	1    7500 2450
 	1    0    0    -1  
@@ -292,7 +292,7 @@ U 1 1 57A89F70
 P 7300 2650
 F 0 "W19" H 7350 2800 50  0000 L CNN
 F 1 "TEST_1P" H 7358 2679 50  0001 L CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 7500 2650 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7500 2650 50  0001 C CNN
 F 3 "" H 7500 2650 50  0000 C CNN
 	1    7300 2650
 	-1   0    0    1   
