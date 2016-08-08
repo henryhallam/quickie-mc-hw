@@ -413,46 +413,10 @@ F 3 "" H 4300 2350 50  0000 C CNN
 	1    4100 2350
 	1    0    0    -1  
 $EndComp
-$Comp
-L TEST_1P W11
-U 1 1 57A8F295
-P 4250 2450
-F 0 "W11" H 4300 2600 50  0000 L CNN
-F 1 "TEST_1P" H 4308 2479 50  0001 L CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4450 2450 50  0001 C CNN
-F 3 "" H 4450 2450 50  0000 C CNN
-	1    4250 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L TEST_1P W14
-U 1 1 57A8F404
-P 4400 2550
-F 0 "W14" H 4450 2700 50  0000 L CNN
-F 1 "TEST_1P" H 4458 2579 50  0001 L CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4600 2550 50  0001 C CNN
-F 3 "" H 4600 2550 50  0000 C CNN
-	1    4400 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L TEST_1P W17
-U 1 1 57A8F574
-P 4550 2650
-F 0 "W17" H 4600 2800 50  0000 L CNN
-F 1 "TEST_1P" H 4608 2679 50  0001 L CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4750 2650 50  0001 C CNN
-F 3 "" H 4750 2650 50  0000 C CNN
-	1    4550 2650
-	1    0    0    -1  
-$EndComp
 Connection ~ 4100 1900
 Connection ~ 4250 2000
 Connection ~ 4400 2100
 Connection ~ 4550 2200
-Connection ~ 4550 2650
-Connection ~ 4400 2550
-Connection ~ 4250 2450
 Connection ~ 4100 2350
 Connection ~ 4050 2800
 Connection ~ 4250 2900
