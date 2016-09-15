@@ -1,0 +1,25 @@
+Molex SL footprint peg holes are wrong
+R6 / R7 silkscreen swapped
+dimm pegs could be tighter
+D1 wrong pinout
+SL != C-grid, don't have SL crimper
+label phases on current sensors
+Standoffs wrong height
+
+Lower voltage filter pole ~300 Hz
+Snubber across bus?
+
+Protect 5V rail from transients on 15V
+
+
+didn't order u1
+
+Ifb very dirty in general, need to bring sensors closer, add diff amp, try using Rds(on)
+
+When doing own gate drive board - ensure minimal capacitance across isolated power domains (particularly high side)
+
+Vds feedback fails badly during regen (conduction through D2..4 and U3..5 clamping diodes),
+possibly also responsible for some of the EMI.  Delete Vds FB or use series resistance to limit current flow.
+Similarly, gate drive board doesn't provide desaturation protection during regeneration.
+
+Hardware OVP would be nice
