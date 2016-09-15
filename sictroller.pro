@@ -1,4 +1,4 @@
-update=Fri 26 Aug 2016 01:24:25 PM PDT
+update=Thu 15 Sep 2016 12:36:06 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,17 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
+ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=
@@ -61,15 +72,3 @@ LibName29=valves
 LibName30=sictroller
 LibName31=TMDSCNCD28069
 LibName32=74LVC8T245
-LibName33=MAX4195
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
-ERC_TestSimilarLabels=1

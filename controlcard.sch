@@ -177,12 +177,6 @@ Text HLabel 2400 1850 0    60   Input ~ 0
 MOTOR_TEMP
 Text HLabel 5000 3050 2    60   Input ~ 0
 IFB_BUS
-Text HLabel 2400 2450 0    60   Input ~ 0
-Vds_A
-Text HLabel 2400 2650 0    60   Input ~ 0
-Vds_B
-Text HLabel 2400 2850 0    60   Input ~ 0
-Vds_C
 Text HLabel 2700 3250 0    60   Output ~ 0
 PWM_AH
 Text HLabel 2700 3350 0    60   Output ~ 0
