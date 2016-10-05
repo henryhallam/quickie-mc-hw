@@ -165,17 +165,15 @@ VFB_C
 Text HLabel 5000 2250 2    60   Input ~ 0
 VFB_BUS
 Text HLabel 5000 2450 2    60   Input ~ 0
-IFB_A
+~IFB_A
 Text HLabel 5000 2650 2    60   Input ~ 0
 IFB_B
 Text HLabel 5000 2850 2    60   Input ~ 0
 IFB_C
-Text HLabel 2400 1650 0    60   Input ~ 0
-PWR_STG_TEMP
-Text HLabel 2400 1850 0    60   Input ~ 0
-MOTOR_TEMP
-Text HLabel 5000 3050 2    60   Input ~ 0
-IFB_BUS
+Text HLabel 7000 1500 0    60   Input ~ 0
+TEMP_PWM
+Text HLabel 7000 1700 0    60   Output ~ 0
+TEMP_EN
 Text HLabel 2700 3250 0    60   Output ~ 0
 PWM_AH
 Text HLabel 2700 3350 0    60   Output ~ 0
@@ -218,8 +216,6 @@ NoConn ~ 4700 3850
 NoConn ~ 4700 3750
 Text HLabel 4950 4050 2    60   Input ~ 0
 ~FLT_DESAT
-Text HLabel 2550 4050 0    60   Input ~ 0
-~FLT_OTP
 Text HLabel 4950 4250 2    60   Input ~ 0
 PWR_RDY
 Text HLabel 4950 4350 2    60   Output ~ 0
@@ -429,10 +425,6 @@ Connection ~ 2600 2350
 Wire Wire Line
 	1950 2250 2700 2250
 Wire Wire Line
-	2400 1850 2700 1850
-Wire Wire Line
-	2400 1650 2700 1650
-Wire Wire Line
 	2400 2650 2700 2650
 Wire Wire Line
 	2400 2850 2700 2850
@@ -467,8 +459,6 @@ Wire Wire Line
 	4700 2650 5000 2650
 Wire Wire Line
 	5000 2850 4700 2850
-Wire Wire Line
-	4700 3050 5000 3050
 Wire Wire Line
 	2400 2450 2700 2450
 Wire Wire Line
