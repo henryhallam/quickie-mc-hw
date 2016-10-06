@@ -392,4 +392,10 @@ F 3 "" H 4600 5150 50  0000 C CNN
 	1    4600 5150
 	1    0    0    -1  
 $EndComp
+Text Notes 3100 1250 0    60   ~ 0
++3.3VD 400mA supply (POL?)
+Text Notes 3100 1350 0    60   ~ 0
++3.35VA supply
+Text Notes 3100 1450 0    60   ~ 0
+TVS across +5V rails
 $EndSCHEMATC

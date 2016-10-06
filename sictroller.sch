@@ -256,17 +256,6 @@ F 3 "" H 7700 2450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P W22
-U 1 1 57A8946B
-P 7700 2550
-F 0 "W22" H 7750 2700 50  0000 L CNN
-F 1 "TEST_1P" H 7758 2579 50  0001 L CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7900 2550 50  0001 C CNN
-F 3 "" H 7900 2550 50  0000 C CNN
-	1    7700 2550
-	1    0    0    -1  
-$EndComp
-$Comp
 L TEST_1P W19
 U 1 1 57A89F70
 P 7300 2650
@@ -277,32 +266,7 @@ F 3 "" H 7500 2650 50  0000 C CNN
 	1    7300 2650
 	-1   0    0    1   
 $EndComp
-$Comp
-L TEST_1P W21
-U 1 1 57A8A1F8
-P 7500 2750
-F 0 "W21" H 7550 2900 50  0000 L CNN
-F 1 "TEST_1P" H 7558 2779 50  0001 L CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7700 2750 50  0001 C CNN
-F 3 "" H 7700 2750 50  0000 C CNN
-	1    7500 2750
-	-1   0    0    1   
-$EndComp
-$Comp
-L TEST_1P W23
-U 1 1 57A8A46D
-P 7700 2850
-F 0 "W23" H 7750 3000 50  0000 L CNN
-F 1 "TEST_1P" H 7758 2879 50  0001 L CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7900 2850 50  0001 C CNN
-F 3 "" H 7900 2850 50  0000 C CNN
-	1    7700 2850
-	-1   0    0    1   
-$EndComp
-Connection ~ 7700 2850
-Connection ~ 7500 2750
 Connection ~ 7300 2650
-Connection ~ 7700 2550
 Connection ~ 7500 2450
 Connection ~ 7300 2350
 $Comp
