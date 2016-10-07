@@ -1094,4 +1094,6 @@ Wire Wire Line
 Wire Wire Line
 	3100 5650 3250 5650
 Connection ~ 3250 5650
+Text Label 9600 6000 0    60   ~ 0
+Y
 $EndSCHEMATC

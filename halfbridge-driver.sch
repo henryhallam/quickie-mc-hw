@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 7 8
 Title ""
 Date ""
 Rev ""
@@ -736,4 +736,12 @@ Connection ~ 8200 1450
 Wire Wire Line
 	4000 1400 4000 1500
 Connection ~ 4000 1450
+Text Label 6650 3150 0    60   ~ 0
+DESAT_HS
+Text Label 6650 4350 0    60   ~ 0
+DESAT_LS
+Text Label 6100 3350 0    60   ~ 0
+DRVH
+Text Label 6100 4550 0    60   ~ 0
+DRVL
 $EndSCHEMATC
