@@ -719,7 +719,7 @@ $EndComp
 Text Label 6800 1850 0    60   ~ 0
 SYNCIO
 Text Notes 7400 2200 0    40   ~ 0
-On transmitter, hand-pop LED resistors
+On transmitter, hand-pop LED resistors and maybe TVS
 $Comp
 L TEST_1P W16
 U 1 1 57F98524
