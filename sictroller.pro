@@ -1,4 +1,4 @@
-update=Thu 15 Sep 2016 12:36:06 PM PDT
+update=Thu 06 Oct 2016 05:26:24 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -72,3 +72,4 @@ LibName29=valves
 LibName30=sictroller
 LibName31=TMDSCNCD28069
 LibName32=74LVC8T245
+LibName33=/home/henry/kittyee/trunk/boards/stepdown-test/viper0p-etc
