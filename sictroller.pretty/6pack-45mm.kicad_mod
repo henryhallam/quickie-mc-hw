@@ -1,14 +1,17 @@
-(module 6pack-45mm (layer F.Cu) (tedit 57E95FAB)
-  (fp_text reference REF** (at -2.5 -21.5) (layer F.SilkS) hide
+(module 6pack-45mm locked (layer F.Cu) (tedit 57F7AA0F)
+  (fp_text reference Q2 (at -2.5 -21.5) (layer F.SilkS) hide
     (effects (font (size 2 2) (thickness 0.3)))
   )
-  (fp_text value 6pack-45mm (at 10.05 4.05) (layer F.Fab) hide
+  (fp_text value CCS050M12CM2 (at 10.05 4.05) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_line (start 11.25 -16.15) (end 81.75 -16.15) (layer B.Fab) (width 1.2))
-  (fp_line (start 81.75 -16.15) (end 81.75 16.15) (layer B.Fab) (width 1.2))
-  (fp_line (start 81.75 16.15) (end 11.25 16.15) (layer B.Fab) (width 1.2))
-  (fp_line (start 11.25 -16.15) (end 11.25 16.15) (layer B.Fab) (width 1.2))
+  (fp_text user "4.35mm vert clearance interior, 2.4mm within border zone" (at 42 -14.4) (layer B.Fab)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
+  (fp_line (start 11.7 -16.1) (end 81.3 -16.1) (layer B.Fab) (width 1.5))
+  (fp_line (start 81.3 -16.1) (end 81.3 16.1) (layer B.Fab) (width 1.5))
+  (fp_line (start 81.3 16.1) (end 11.7 16.1) (layer B.Fab) (width 1.5))
+  (fp_line (start 11.7 -16.1) (end 11.7 16.1) (layer B.Fab) (width 1.5))
   (fp_line (start -7.5 23.5) (end 100.5 23.5) (layer B.CrtYd) (width 1))
   (fp_line (start 100.5 23.5) (end 100.5 -23.5) (layer B.CrtYd) (width 1))
   (fp_line (start 100.5 -23.5) (end -7.5 -23.5) (layer B.CrtYd) (width 1))

@@ -751,6 +751,95 @@ Text GLabel 4600 7050 2    60   UnSpc ~ 0
 BUS+
 Text GLabel 4600 7250 2    60   UnSpc ~ 0
 BUS-
+Text GLabel 9350 4850 2    60   UnSpc ~ 0
+CCS_NTC_1
+Text GLabel 9350 5050 2    60   UnSpc ~ 0
+CCS_NTC_2
+Text GLabel 8750 5750 0    60   UnSpc ~ 0
+BUS+
+Text GLabel 8750 6250 0    60   UnSpc ~ 0
+BUS-
+$Comp
+L C_Small C60
+U 1 1 57FDB526
+P 9100 5850
+F 0 "C60" H 9110 5920 50  0000 L CNN
+F 1 "47 nF 700V" H 9110 5770 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 9100 5850 50  0001 C CNN
+F 3 "" H 9100 5850 50  0000 C CNN
+	1    9100 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R54
+U 1 1 57FDBE64
+P 8850 5850
+F 0 "R54" H 8880 5870 50  0000 L CNN
+F 1 "10M" H 8880 5810 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 8850 5850 50  0001 C CNN
+F 3 "" H 8850 5850 50  0000 C CNN
+	1    8850 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C61
+U 1 1 57FDCDC0
+P 9100 6150
+F 0 "C61" H 9110 6220 50  0000 L CNN
+F 1 "47 nF 700V" H 9110 6070 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 9100 6150 50  0001 C CNN
+F 3 "" H 9100 6150 50  0000 C CNN
+	1    9100 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R55
+U 1 1 57FDDE6B
+P 8850 6150
+F 0 "R55" H 8880 6170 50  0000 L CNN
+F 1 "10M" H 8880 6110 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 8850 6150 50  0001 C CNN
+F 3 "" H 8850 6150 50  0000 C CNN
+	1    8850 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 J13
+U 1 1 57FE17BD
+P 9850 6000
+F 0 "J13" H 9850 6100 50  0000 C CNN
+F 1 "CONN_01X01" V 9950 6000 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 9850 6000 50  0001 C CNN
+F 3 "" H 9850 6000 50  0000 C CNN
+	1    9850 6000
+	1    0    0    -1  
+$EndComp
+Text Notes 8700 5650 0    60   ~ 0
+Y capacitor for heatsink
+Text Notes 3000 3750 0    60   ~ 0
+TODO: Softer level shifter?
+$Comp
+L TXS0108E U11
+U 1 1 5800B3B2
+P 3650 5350
+F 0 "U11" H 3450 4700 60  0000 L CNN
+F 1 "TXS0108E" H 3650 4700 60  0000 L CNN
+F 2 "sictroller:VQFN-20" H 3650 4650 60  0001 C CNN
+F 3 "" H 3650 4650 60  0000 C CNN
+	1    3650 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR0107
+U 1 1 5800C8BD
+P 3100 5650
+F 0 "#PWR0107" H 3100 5500 50  0001 C CNN
+F 1 "+3.3V" H 3100 5790 50  0000 C CNN
+F 2 "" H 3100 5650 50  0000 C CNN
+F 3 "" H 3100 5650 50  0000 C CNN
+	1    3100 5650
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	4150 4250 4150 4650
 Wire Wire Line
@@ -978,10 +1067,6 @@ Connection ~ 1500 7050
 Connection ~ 4100 7050
 Wire Wire Line
 	8200 5650 8200 4450
-Text GLabel 9350 4850 2    60   UnSpc ~ 0
-CCS_NTC_1
-Text GLabel 9350 5050 2    60   UnSpc ~ 0
-CCS_NTC_2
 Wire Wire Line
 	9300 4700 9300 4850
 Wire Wire Line
@@ -990,54 +1075,6 @@ Wire Wire Line
 	9350 5050 9000 5050
 Wire Wire Line
 	9000 5050 9000 4700
-Text GLabel 8750 5750 0    60   UnSpc ~ 0
-BUS+
-Text GLabel 8750 6250 0    60   UnSpc ~ 0
-BUS-
-$Comp
-L C_Small C60
-U 1 1 57FDB526
-P 9100 5850
-F 0 "C60" H 9110 5920 50  0000 L CNN
-F 1 "47 nF 700V" H 9110 5770 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1210" H 9100 5850 50  0001 C CNN
-F 3 "" H 9100 5850 50  0000 C CNN
-	1    9100 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_Small R54
-U 1 1 57FDBE64
-P 8850 5850
-F 0 "R54" H 8880 5870 50  0000 L CNN
-F 1 "10M" H 8880 5810 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" H 8850 5850 50  0001 C CNN
-F 3 "" H 8850 5850 50  0000 C CNN
-	1    8850 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C61
-U 1 1 57FDCDC0
-P 9100 6150
-F 0 "C61" H 9110 6220 50  0000 L CNN
-F 1 "47 nF 700V" H 9110 6070 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1210" H 9100 6150 50  0001 C CNN
-F 3 "" H 9100 6150 50  0000 C CNN
-	1    9100 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_Small R55
-U 1 1 57FDDE6B
-P 8850 6150
-F 0 "R55" H 8880 6170 50  0000 L CNN
-F 1 "10M" H 8880 6110 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" H 8850 6150 50  0001 C CNN
-F 3 "" H 8850 6150 50  0000 C CNN
-	1    8850 6150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9100 5950 9100 6050
 Wire Wire Line
@@ -1052,45 +1089,8 @@ Connection ~ 8850 5750
 Wire Wire Line
 	8750 6250 9100 6250
 Connection ~ 8850 6250
-$Comp
-L CONN_01X01 J13
-U 1 1 57FE17BD
-P 9850 6000
-F 0 "J13" H 9850 6100 50  0000 C CNN
-F 1 "CONN_01X01" V 9950 6000 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 9850 6000 50  0001 C CNN
-F 3 "" H 9850 6000 50  0000 C CNN
-	1    9850 6000
-	1    0    0    -1  
-$EndComp
-Text Notes 8700 5650 0    60   ~ 0
-Y capacitor for heatsink
-Text Notes 3000 3750 0    60   ~ 0
-TODO: Softer level shifter?
-$Comp
-L TXS0108E U11
-U 1 1 5800B3B2
-P 3650 5350
-F 0 "U11" H 3450 4700 60  0000 L CNN
-F 1 "TXS0108E" H 3650 4700 60  0000 L CNN
-F 2 "sictroller:VQFN-20" H 3650 4650 60  0001 C CNN
-F 3 "" H 3650 4650 60  0000 C CNN
-	1    3650 5350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3250 4250 3250 4550
-$Comp
-L +3.3V #PWR0107
-U 1 1 5800C8BD
-P 3100 5650
-F 0 "#PWR0107" H 3100 5500 50  0001 C CNN
-F 1 "+3.3V" H 3100 5790 50  0000 C CNN
-F 2 "" H 3100 5650 50  0000 C CNN
-F 3 "" H 3100 5650 50  0000 C CNN
-	1    3100 5650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3100 5650 3250 5650
 Connection ~ 3250 5650
