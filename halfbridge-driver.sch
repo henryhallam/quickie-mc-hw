@@ -31,7 +31,6 @@ LIBS:valves
 LIBS:sictroller
 LIBS:TMDSCNCD28069
 LIBS:74LVC8T245
-LIBS:viper0p-etc
 LIBS:sictroller-cache
 EELAYER 25 0
 EELAYER END
