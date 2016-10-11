@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/henry/motorctrl/sic/sictroller/sictroller.sch)
-    (date "Sun 09 Oct 2016 11:39:39 AM PDT")
+    (source /home/henry/sictroller/sictroller.sch)
+    (date "Tue 11 Oct 2016 09:54:06 AM PDT")
     (tool "Eeschema 4.0.4+dfsg1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -2018,7 +2018,6 @@
         (pin (num 35) (name CLAMPHS) (type passive))
         (pin (num 36) (name VEE2HS) (type power_in))))
     (libpart (lib sictroller) (part 74LVC2G04)
-      (description "Dual inverter")
       (fields
         (field (name Reference) U)
         (field (name Value) 74LVC2G04))
@@ -2030,6 +2029,7 @@
         (pin (num 5) (name VCC) (type power_in))
         (pin (num 6) (name ~) (type output))))
     (libpart (lib sictroller) (part ACPL-M61L)
+      (description "Logic output optocoupler")
       (footprints
         (fp SOIC-6_4.58x6.81mm_Pitch1.27mm))
       (fields
@@ -2236,6 +2236,7 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
     (libpart (lib sictroller) (part Ceramic_Resonator)
+      (description "3 pin resonator")
       (fields
         (field (name Reference) Y)
         (field (name Value) Ceramic_Resonator))
@@ -2583,16 +2584,16 @@
         (pin (num 1) (name K) (type passive))
         (pin (num 2) (name A) (type passive)))))
   (libraries
-    (library (logical sictroller)
-      (uri /home/henry/motorctrl/sic/sictroller/sictroller.lib))
-    (library (logical regul)
-      (uri /usr/share/kicad/library/regul.lib))
-    (library (logical interface)
-      (uri /usr/share/kicad/library/interface.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
     (library (logical device)
-      (uri /usr/share/kicad/library/device.lib)))
+      (uri /usr/share/kicad/library/device.lib))
+    (library (logical sictroller)
+      (uri /home/henry/sictroller/sictroller.lib))
+    (library (logical interface)
+      (uri /usr/share/kicad/library/interface.lib))
+    (library (logical regul)
+      (uri /usr/share/kicad/library/regul.lib)))
   (nets
     (net (code 1) (name "/Power stage/~PWR_RESET")
       (node (ref U11) (pin 1))
