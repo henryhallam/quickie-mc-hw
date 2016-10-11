@@ -720,39 +720,6 @@ SYNCIO
 Text Notes 7400 2200 0    40   ~ 0
 On transmitter, hand-pop LED resistors and maybe TVS
 $Comp
-L TEST_1P W16
-U 1 1 57F98524
-P 3200 4150
-F 0 "W16" V 3200 4400 50  0000 C CNN
-F 1 "TEST_1P" V 3304 4224 50  0001 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3400 4150 50  0001 C CNN
-F 3 "" H 3400 4150 50  0000 C CNN
-	1    3200 4150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L TEST_1P W18
-U 1 1 57F98B51
-P 3200 4250
-F 0 "W18" V 3200 4500 50  0000 C CNN
-F 1 "TEST_1P" V 3304 4324 50  0001 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3400 4250 50  0001 C CNN
-F 3 "" H 3400 4250 50  0000 C CNN
-	1    3200 4250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L TEST_1P W21
-U 1 1 57F98BE0
-P 3200 4450
-F 0 "W21" V 3200 4700 50  0000 C CNN
-F 1 "TEST_1P" V 3304 4524 50  0001 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3400 4450 50  0001 C CNN
-F 3 "" H 3400 4450 50  0000 C CNN
-	1    3200 4450
-	0    -1   -1   0   
-$EndComp
-$Comp
 L GNDD #PWR033
 U 1 1 57F9B7D9
 P 8850 2950
@@ -992,10 +959,10 @@ F 3 "" H 9300 5350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_01X03 P1
+L CONN_01X03 J15
 U 1 1 57F682F4
 P 9750 5150
-F 0 "P1" H 9750 5350 50  0000 C CNN
+F 0 "J15" H 9750 5350 50  0000 C CNN
 F 1 "CONN_01X03" V 9850 5150 50  0000 C CNN
 F 2 "Connectors_Molex:Molex_PicoBlade_53261-0371" H 9750 5150 50  0001 C CNN
 F 3 "" H 9750 5150 50  0000 C CNN
@@ -1565,4 +1532,61 @@ Text Notes 8250 4150 0    60   ~ 0
 CAN (indirect user interface)
 Text Notes 650  4350 0    60   ~ 0
 5V rail monitoring
+$Comp
+L CONN_01X05 J14
+U 1 1 58061B8A
+P 900 3550
+F 0 "J14" H 900 3850 50  0000 C CNN
+F 1 "CONN_01X05" V 1000 3550 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_PicoBlade_53261-0571" H 900 3550 50  0001 C CNN
+F 3 "" H 900 3550 50  0000 C CNN
+	1    900  3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L GNDD #PWR047
+U 1 1 580621EF
+P 1150 3750
+F 0 "#PWR047" H 1150 3500 50  0001 C CNN
+F 1 "GNDD" H 1150 3600 50  0000 C CNN
+F 2 "" H 1150 3750 50  0000 C CNN
+F 3 "" H 1150 3750 50  0000 C CNN
+	1    1150 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 3750 1100 3750
+$Comp
+L +3.3VA #PWR048
+U 1 1 58062578
+P 1150 3350
+F 0 "#PWR048" H 1150 3200 50  0001 C CNN
+F 1 "+3.3VA" H 1150 3490 50  0000 C CNN
+F 2 "" H 1150 3350 50  0000 C CNN
+F 3 "" H 1150 3350 50  0000 C CNN
+	1    1150 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 3350 1100 3350
+Wire Wire Line
+	1100 3450 1450 3450
+Wire Wire Line
+	1100 3550 1450 3550
+Wire Wire Line
+	1100 3650 1450 3650
+Text Label 1450 3450 2    60   ~ 0
+ADC_A2
+Text Label 1450 3550 2    60   ~ 0
+ADC_A1
+Text Label 1450 3650 2    60   ~ 0
+ADC_B6
+Text Label 3200 4150 2    60   ~ 0
+ADC_A2
+Text Label 3200 4250 2    60   ~ 0
+ADC_A1
+Text Label 3200 4450 2    60   ~ 0
+ADC_B6
+Text Notes 750  3100 0    60   ~ 0
+Aux (e.g. accel)
 $EndSCHEMATC
