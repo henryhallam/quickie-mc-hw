@@ -65,17 +65,17 @@ TEMP_PWM
 Text HLabel 6200 5050 2    60   Output ~ 0
 TEMP_EN
 Text HLabel 6200 1750 2    60   Output ~ 0
-PWM_AH
-Text HLabel 6200 1950 2    60   Output ~ 0
 PWM_BH
-Text HLabel 6200 2150 2    60   Output ~ 0
+Text HLabel 6200 1950 2    60   Output ~ 0
 PWM_CH
+Text HLabel 6200 2150 2    60   Output ~ 0
+PWM_AH
 Text HLabel 6200 1850 2    60   Output ~ 0
-PWM_AL
-Text HLabel 6200 2050 2    60   Output ~ 0
 PWM_BL
-Text HLabel 6200 2250 2    60   Output ~ 0
+Text HLabel 6200 2050 2    60   Output ~ 0
 PWM_CL
+Text HLabel 6200 2250 2    60   Output ~ 0
+PWM_AL
 Text HLabel 6200 4550 2    60   Input ~ 0
 ~FLT_DESAT
 Text HLabel 6200 5250 2    60   Input ~ 0
