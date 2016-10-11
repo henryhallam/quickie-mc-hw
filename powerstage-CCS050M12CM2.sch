@@ -609,7 +609,7 @@ U 1 1 57F3DE1F
 P 1900 7150
 F 0 "C64" H 1910 7220 50  0000 L CNN
 F 1 "1uF" H 1910 7070 50  0000 L CNN
-F 2 "sictroller:Ceralink-L" H 1900 7150 50  0001 C CNN
+F 2 "sictroller:Ceralink-L-viastitch" H 1900 7150 50  0001 C CNN
 F 3 "" H 1900 7150 50  0000 C CNN
 	1    1900 7150
 	1    0    0    -1  
@@ -620,7 +620,7 @@ U 1 1 57F3E159
 P 2100 7150
 F 0 "C65" H 2110 7220 50  0000 L CNN
 F 1 "1uF" H 2110 7070 50  0000 L CNN
-F 2 "sictroller:Ceralink-L" H 2100 7150 50  0001 C CNN
+F 2 "sictroller:Ceralink-L-viastitch" H 2100 7150 50  0001 C CNN
 F 3 "" H 2100 7150 50  0000 C CNN
 	1    2100 7150
 	1    0    0    -1  
@@ -631,7 +631,7 @@ U 1 1 57F3E15F
 P 2300 7150
 F 0 "C66" H 2310 7220 50  0000 L CNN
 F 1 "1uF" H 2310 7070 50  0000 L CNN
-F 2 "sictroller:Ceralink-L" H 2300 7150 50  0001 C CNN
+F 2 "sictroller:Ceralink-L-viastitch" H 2300 7150 50  0001 C CNN
 F 3 "" H 2300 7150 50  0000 C CNN
 	1    2300 7150
 	1    0    0    -1  
@@ -642,7 +642,7 @@ U 1 1 57F3E165
 P 2500 7150
 F 0 "C67" H 2510 7220 50  0000 L CNN
 F 1 "1uF" H 2510 7070 50  0000 L CNN
-F 2 "sictroller:Ceralink-L" H 2500 7150 50  0001 C CNN
+F 2 "sictroller:Ceralink-L-viastitch" H 2500 7150 50  0001 C CNN
 F 3 "" H 2500 7150 50  0000 C CNN
 	1    2500 7150
 	1    0    0    -1  
@@ -653,7 +653,7 @@ U 1 1 57F3E16B
 P 2700 7150
 F 0 "C68" H 2710 7220 50  0000 L CNN
 F 1 "1uF" H 2710 7070 50  0000 L CNN
-F 2 "sictroller:Ceralink-L" H 2700 7150 50  0001 C CNN
+F 2 "sictroller:Ceralink-L-viastitch" H 2700 7150 50  0001 C CNN
 F 3 "" H 2700 7150 50  0000 C CNN
 	1    2700 7150
 	1    0    0    -1  
@@ -664,7 +664,7 @@ U 1 1 57F3F295
 P 2900 7150
 F 0 "C69" H 2910 7220 50  0000 L CNN
 F 1 "1uF" H 2910 7070 50  0000 L CNN
-F 2 "sictroller:Ceralink-L" H 2900 7150 50  0001 C CNN
+F 2 "sictroller:Ceralink-L-viastitch" H 2900 7150 50  0001 C CNN
 F 3 "" H 2900 7150 50  0000 C CNN
 	1    2900 7150
 	1    0    0    -1  
@@ -675,7 +675,7 @@ U 1 1 57F3F29B
 P 3100 7150
 F 0 "C70" H 3110 7220 50  0000 L CNN
 F 1 "1uF" H 3110 7070 50  0000 L CNN
-F 2 "sictroller:Ceralink-L" H 3100 7150 50  0001 C CNN
+F 2 "sictroller:Ceralink-L-viastitch" H 3100 7150 50  0001 C CNN
 F 3 "" H 3100 7150 50  0000 C CNN
 	1    3100 7150
 	1    0    0    -1  
@@ -686,7 +686,7 @@ U 1 1 57F3F2A1
 P 3300 7150
 F 0 "C71" H 3310 7220 50  0000 L CNN
 F 1 "1uF" H 3310 7070 50  0000 L CNN
-F 2 "sictroller:Ceralink-L" H 3300 7150 50  0001 C CNN
+F 2 "sictroller:Ceralink-L-viastitch" H 3300 7150 50  0001 C CNN
 F 3 "" H 3300 7150 50  0000 C CNN
 	1    3300 7150
 	1    0    0    -1  
@@ -697,7 +697,7 @@ U 1 1 57F3F2A7
 P 3500 7150
 F 0 "C72" H 3510 7220 50  0000 L CNN
 F 1 "1uF" H 3510 7070 50  0000 L CNN
-F 2 "sictroller:Ceralink-L" H 3500 7150 50  0001 C CNN
+F 2 "sictroller:Ceralink-L-viastitch" H 3500 7150 50  0001 C CNN
 F 3 "" H 3500 7150 50  0000 C CNN
 	1    3500 7150
 	1    0    0    -1  
@@ -708,7 +708,7 @@ U 1 1 57F3F2AD
 P 3700 7150
 F 0 "C73" H 3710 7220 50  0000 L CNN
 F 1 "1uF" H 3710 7070 50  0000 L CNN
-F 2 "sictroller:Ceralink-L" H 3700 7150 50  0001 C CNN
+F 2 "sictroller:Ceralink-L-viastitch" H 3700 7150 50  0001 C CNN
 F 3 "" H 3700 7150 50  0000 C CNN
 	1    3700 7150
 	1    0    0    -1  
@@ -719,7 +719,7 @@ U 1 1 57F3F2B3
 P 3900 7150
 F 0 "C74" H 3910 7220 50  0000 L CNN
 F 1 "1uF" H 3910 7070 50  0000 L CNN
-F 2 "sictroller:Ceralink-L" H 3900 7150 50  0001 C CNN
+F 2 "sictroller:Ceralink-L-viastitch" H 3900 7150 50  0001 C CNN
 F 3 "" H 3900 7150 50  0000 C CNN
 	1    3900 7150
 	1    0    0    -1  
@@ -730,7 +730,7 @@ U 1 1 57F3F2B9
 P 4100 7150
 F 0 "C75" H 4110 7220 50  0000 L CNN
 F 1 "1uF" H 4110 7070 50  0000 L CNN
-F 2 "sictroller:Ceralink-L" H 4100 7150 50  0001 C CNN
+F 2 "sictroller:Ceralink-L-viastitch" H 4100 7150 50  0001 C CNN
 F 3 "" H 4100 7150 50  0000 C CNN
 	1    4100 7150
 	1    0    0    -1  
@@ -741,7 +741,7 @@ U 1 1 57F3F2BF
 P 4300 7150
 F 0 "C76" H 4310 7220 50  0000 L CNN
 F 1 "1uF" H 4310 7070 50  0000 L CNN
-F 2 "sictroller:Ceralink-L" H 4300 7150 50  0001 C CNN
+F 2 "sictroller:Ceralink-L-viastitch" H 4300 7150 50  0001 C CNN
 F 3 "" H 4300 7150 50  0000 C CNN
 	1    4300 7150
 	1    0    0    -1  
