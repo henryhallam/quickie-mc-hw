@@ -748,9 +748,9 @@ Wire Wire Line
 Wire Wire Line
 	4850 5150 4150 5150
 Wire Wire Line
-	4850 5050 4150 5050
+	4150 5050 5150 5050
 Wire Wire Line
-	4850 4950 4150 4950
+	4150 4950 5000 4950
 Wire Wire Line
 	4150 4850 4850 4850
 Wire Wire Line
@@ -1099,4 +1099,26 @@ Connection ~ 1900 7700
 Wire Wire Line
 	1200 5050 3250 5050
 Connection ~ 2600 4850
+$Comp
+L TEST_1P W2
+U 1 1 58002D82
+P 5000 4950
+F 0 "W2" H 5000 5220 50  0000 C CNN
+F 1 "TEST_1P" H 5000 5150 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 5200 4950 50  0001 C CNN
+F 3 "" H 5200 4950 50  0000 C CNN
+	1    5000 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W3
+U 1 1 580030CB
+P 5150 5050
+F 0 "W3" H 5150 5320 50  0000 C CNN
+F 1 "TEST_1P" H 5150 5250 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 5350 5050 50  0001 C CNN
+F 3 "" H 5350 5050 50  0000 C CNN
+	1    5150 5050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
