@@ -813,7 +813,7 @@ U 1 1 57F635FD
 P 6200 4150
 F 0 "W17" V 6200 4400 50  0000 C CNN
 F 1 "TEST_1P" V 6304 4224 50  0001 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6400 4150 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 6400 4150 50  0001 C CNN
 F 3 "" H 6400 4150 50  0000 C CNN
 	1    6200 4150
 	0    1    1    0   
@@ -821,34 +821,23 @@ $EndComp
 $Comp
 L TEST_1P W19
 U 1 1 57F638C1
-P 6200 4250
-F 0 "W19" V 6200 4500 50  0000 C CNN
-F 1 "TEST_1P" V 6304 4324 50  0001 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6400 4250 50  0001 C CNN
-F 3 "" H 6400 4250 50  0000 C CNN
-	1    6200 4250
+P 6200 3050
+F 0 "W19" V 6200 3300 50  0000 C CNN
+F 1 "TEST_1P" V 6304 3124 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 6400 3050 50  0001 C CNN
+F 3 "" H 6400 3050 50  0000 C CNN
+	1    6200 3050
 	0    1    1    0   
 $EndComp
 $Comp
 L TEST_1P W20
 U 1 1 57F63968
-P 6200 4350
-F 0 "W20" V 6200 4600 50  0000 C CNN
-F 1 "TEST_1P" V 6304 4424 50  0001 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6400 4350 50  0001 C CNN
-F 3 "" H 6400 4350 50  0000 C CNN
-	1    6200 4350
-	0    1    1    0   
-$EndComp
-$Comp
-L TEST_1P W22
-U 1 1 57F63A0E
-P 6200 4450
-F 0 "W22" V 6200 4700 50  0000 C CNN
-F 1 "TEST_1P" V 6304 4524 50  0001 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6400 4450 50  0001 C CNN
-F 3 "" H 6400 4450 50  0000 C CNN
-	1    6200 4450
+P 6200 3150
+F 0 "W20" V 6200 3400 50  0000 C CNN
+F 1 "TEST_1P" V 6304 3224 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 6400 3150 50  0001 C CNN
+F 3 "" H 6400 3150 50  0000 C CNN
+	1    6200 3150
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1052,7 +1041,7 @@ U 1 1 57FA8028
 P 6200 4050
 F 0 "W15" V 6200 4300 50  0000 C CNN
 F 1 "TEST_1P" V 6304 4124 50  0001 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6400 4050 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 6400 4050 50  0001 C CNN
 F 3 "" H 6400 4050 50  0000 C CNN
 	1    6200 4050
 	0    1    1    0   
@@ -1063,7 +1052,7 @@ U 1 1 57FA80FC
 P 6200 3550
 F 0 "W13" V 6200 3800 50  0000 C CNN
 F 1 "TEST_1P" V 6304 3624 50  0001 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6400 3550 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 6400 3550 50  0001 C CNN
 F 3 "" H 6400 3550 50  0000 C CNN
 	1    6200 3550
 	0    1    1    0   
@@ -1074,7 +1063,7 @@ U 1 1 57FA81EB
 P 6200 3650
 F 0 "W14" V 6200 3900 50  0000 C CNN
 F 1 "TEST_1P" V 6304 3724 50  0001 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6400 3650 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 6400 3650 50  0001 C CNN
 F 3 "" H 6400 3650 50  0000 C CNN
 	1    6200 3650
 	0    1    1    0   
@@ -1103,8 +1092,6 @@ F 3 "" H 2350 3450 50  0000 C CNN
 $EndComp
 NoConn ~ 6200 2750
 NoConn ~ 6200 2950
-NoConn ~ 6200 3050
-NoConn ~ 6200 3150
 NoConn ~ 6200 3250
 NoConn ~ 6200 3350
 NoConn ~ 6200 3450
@@ -1131,7 +1118,7 @@ F 1 "ESD7C3.3DT5G" H 9900 3700 50  0000 C CNN
 F 2 "sictroller:SOT-723" H 9900 3600 50  0001 C CNN
 F 3 "" H 9900 3600 50  0000 C CNN
 	1    9900 3600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L D_Schottky_x2_ACom_KKA D1
@@ -1142,7 +1129,7 @@ F 1 "ESD7C3.3DT5G" H 9650 3100 50  0000 C CNN
 F 2 "sictroller:SOT-723" H 9650 3000 50  0001 C CNN
 F 3 "" H 9650 3000 50  0000 C CNN
 	1    9650 3000
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L D_Schottky_x2_ACom_KKA D2
@@ -1649,4 +1636,11 @@ F 3 "" H 4300 5500 50  0000 C CNN
 	1    4300 5500
 	1    0    0    -1  
 $EndComp
+NoConn ~ 6200 4250
+NoConn ~ 6200 4350
+NoConn ~ 6200 4450
+Text Label 2450 4350 0    60   ~ 0
+VREFHI
+Text Label 1250 4800 0    60   ~ 0
+VDD_MON
 $EndSCHEMATC

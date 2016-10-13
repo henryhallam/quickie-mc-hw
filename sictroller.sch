@@ -256,39 +256,6 @@ F 3 "" H 4300 1900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P W2
-U 1 1 57A8E4FF
-P 4250 2000
-F 0 "W2" H 4300 2150 50  0000 L CNN
-F 1 "TEST_1P" H 4308 2029 50  0001 L CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4450 2000 50  0001 C CNN
-F 3 "" H 4450 2000 50  0000 C CNN
-	1    4250 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L TEST_1P W3
-U 1 1 57A8E7A8
-P 4400 2100
-F 0 "W3" H 4450 2250 50  0000 L CNN
-F 1 "TEST_1P" H 4458 2129 50  0001 L CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4600 2100 50  0001 C CNN
-F 3 "" H 4600 2100 50  0000 C CNN
-	1    4400 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L TEST_1P W4
-U 1 1 57A8EA5A
-P 4550 2200
-F 0 "W4" H 4600 2350 50  0000 L CNN
-F 1 "TEST_1P" H 4608 2229 50  0001 L CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4750 2200 50  0001 C CNN
-F 3 "" H 4750 2200 50  0000 C CNN
-	1    4550 2200
-	1    0    0    -1  
-$EndComp
-$Comp
 L TEST_1P W5
 U 1 1 57A8EFB5
 P 4100 2350
@@ -326,4 +293,5 @@ F 3 "" H 1600 7550 50  0000 C CNN
 	1    1600 7550
 	1    0    0    -1  
 $EndComp
+NoConn ~ 2800 1200
 $EndSCHEMATC
