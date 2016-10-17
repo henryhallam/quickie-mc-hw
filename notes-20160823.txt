@@ -1,0 +1,11 @@
+PSU: 60V 10A
+RPM: 400
+Torque ~1.15 Nm
+
+HAL_PWM_DB*ED_CNT = 13:
+Current ringing approx 2A pk-pk
+phase-phase voltage @ motor ~180% of switch
+
+HAL_PWM_DB*ED_CNT = 25:
+similar
+

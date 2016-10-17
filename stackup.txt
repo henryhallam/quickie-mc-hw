@@ -1,0 +1,29 @@
+HV power section
+ F	Bus+
+ In1	Bus-
+ In2	Bus+
+ In3	Bus-
+ In4	Bus+
+ B	Bus-
+
++5VD	Level shift, gate drivers, iso supplies, LV supplies, CAN, temp sens
++5VA	Current sensors, VREF, +3.3VA reg input
++3.3V   DSP, JTAG, sync, CAN, level shift
++3.3VA  DSP, J14 (accel)
++1.8V   DSP
+
+
+Under DSP:
++3.3V(D) +3.3VA +1.8V GNDD GNDA
+
+ F	Routing and mounting
+ In1	GNDD
+ In2	+3.3VD and limited routing
+ In3	+1.8V and limited routing
+ In4	GNDD
+ B	Routing and mounting
+
+
+
+Gate drive sections
+Src +19V -5V
