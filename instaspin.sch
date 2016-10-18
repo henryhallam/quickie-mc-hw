@@ -1633,9 +1633,9 @@ VDD_MON
 Text Label 9600 5750 0    60   ~ 0
 CAN_GND
 Text Label 9450 4950 0    60   ~ 0
-CANH
+CAN+
 Text Label 9450 5150 0    60   ~ 0
-CANL
+CAN-
 Wire Wire Line
 	9650 5250 9550 5250
 Wire Wire Line
@@ -1649,6 +1649,6 @@ F 1 "CONN_01X03" V 9950 5150 50  0000 C CNN
 F 2 "Connectors_Molex:Molex_PicoBlade_53261-0371" H 9850 5150 50  0001 C CNN
 F 3 "" H 9850 5150 50  0000 C CNN
 	1    9850 5150
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $EndSCHEMATC
