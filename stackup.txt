@@ -27,3 +27,6 @@ Under DSP:
 
 Gate drive sections
 Src +19V -5V
+
+
+Failed to load kiface library
