@@ -24,6 +24,14 @@ Under DSP:
  B	Routing and mounting
 
 
+Gate drive LV side:
+ F	Routing and mounting
+ In1	GNDD
+ In2	+5V
+ In3	Routing
+ In4	GNDD
+ B	Routing and mounting
+
 
 Gate drive sections
 Src +19V -5V
