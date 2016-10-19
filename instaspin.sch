@@ -62,7 +62,7 @@ Text HLabel 3200 3850 0    60   Input ~ 0
 IFB_C
 Text HLabel 6200 2850 2    60   Input ~ 0
 TEMP_PWM
-Text HLabel 6200 5050 2    60   Output ~ 0
+Text HLabel 6200 4450 2    60   Output ~ 0
 TEMP_EN
 Text HLabel 6200 1750 2    60   Output ~ 0
 PWM_BH
@@ -1625,7 +1625,7 @@ F 3 "" H 4300 5500 50  0000 C CNN
 $EndComp
 NoConn ~ 6200 4250
 NoConn ~ 6200 4350
-NoConn ~ 6200 4450
+NoConn ~ 6200 5050
 Text Label 2450 4350 0    60   ~ 0
 VREFHI
 Text Label 1250 4800 0    60   ~ 0
@@ -1651,4 +1651,16 @@ F 3 "" H 9850 5150 50  0000 C CNN
 	1    9850 5150
 	1    0    0    1   
 $EndComp
+$Comp
+L TEST_1P W4
+U 1 1 58072EEC
+P 1450 2550
+F 0 "W4" V 1450 2800 50  0000 C CNN
+F 1 "TEST_1P" V 1554 2624 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 1650 2550 50  0001 C CNN
+F 3 "" H 1650 2550 50  0000 C CNN
+	1    1450 2550
+	1    0    0    -1  
+$EndComp
+Connection ~ 1450 2550
 $EndSCHEMATC
