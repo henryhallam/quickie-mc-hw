@@ -9,3 +9,8 @@ phase-phase voltage @ motor ~180% of switch
 HAL_PWM_DB*ED_CNT = 25:
 similar
 
+
+Smaller PWM series resistor?
+Viper26 startup current through switch?
+easy disconnect for HV->5V
+footprint for LPF cap near current sensors

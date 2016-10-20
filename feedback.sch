@@ -1272,4 +1272,19 @@ F 3 "" H 2250 2650 50  0000 C CNN
 	1    2250 2650
 	1    0    0    -1  
 $EndComp
+$Comp
+L R_Small R50
+U 1 1 580B9445
+P 5850 5550
+F 0 "R50" H 6000 5550 50  0000 C CNN
+F 1 "100K" H 6000 5650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" H 5850 5550 50  0001 C CNN
+F 3 "" H 5850 5550 50  0000 C CNN
+	1    5850 5550
+	-1   0    0    1   
+$EndComp
+Connection ~ 5850 5450
+Wire Wire Line
+	5850 5650 5850 5700
+Connection ~ 5850 5700
 $EndSCHEMATC
