@@ -165,10 +165,10 @@ F 3 "" H 1400 7550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR1
+L GNDD #PWR01
 U 1 1 57A83FCA
 P 800 7550
-F 0 "#PWR1" H 800 7300 50  0001 C CNN
+F 0 "#PWR01" H 800 7300 50  0001 C CNN
 F 1 "GNDD" H 805 7377 50  0000 C CNN
 F 2 "" H 800 7550 50  0000 C CNN
 F 3 "" H 800 7550 50  0000 C CNN
@@ -176,10 +176,10 @@ F 3 "" H 800 7550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR2
+L GNDD #PWR02
 U 1 1 57A844D3
 P 1200 7550
-F 0 "#PWR2" H 1200 7300 50  0001 C CNN
+F 0 "#PWR02" H 1200 7300 50  0001 C CNN
 F 1 "GNDD" H 1205 7377 50  0000 C CNN
 F 2 "" H 1200 7550 50  0000 C CNN
 F 3 "" H 1200 7550 50  0000 C CNN
@@ -236,10 +236,10 @@ Connection ~ 4400 2100
 Connection ~ 4550 2200
 Connection ~ 4100 2350
 $Comp
-L GNDA #PWR4
+L GNDA #PWR03
 U 1 1 5806E9BD
 P 2000 7550
-F 0 "#PWR4" H 2000 7300 50  0001 C CNN
+F 0 "#PWR03" H 2000 7300 50  0001 C CNN
 F 1 "GNDA" H 2000 7400 50  0000 C CNN
 F 2 "" H 2000 7550 50  0000 C CNN
 F 3 "" H 2000 7550 50  0000 C CNN
@@ -247,15 +247,234 @@ F 3 "" H 2000 7550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR3
+L GNDA #PWR04
 U 1 1 5806ED9E
 P 1600 7550
-F 0 "#PWR3" H 1600 7300 50  0001 C CNN
+F 0 "#PWR04" H 1600 7300 50  0001 C CNN
 F 1 "GNDA" H 1600 7400 50  0000 C CNN
 F 2 "" H 1600 7550 50  0000 C CNN
 F 3 "" H 1600 7550 50  0000 C CNN
 	1    1600 7550
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2800 1200
+$Comp
+L Fiducial FID1
+U 1 1 580C9076
+P 1950 4550
+F 0 "FID1" H 1960 4580 60  0000 C CNN
+F 1 "Fiducial" H 1940 4480 60  0000 C CNN
+F 2 "sictroller:Fiducial_1mm_CopperTop" H 1950 4550 60  0001 C CNN
+F 3 "" H 1950 4550 60  0001 C CNN
+	1    1950 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID2
+U 1 1 580C9CFA
+P 2550 4550
+F 0 "FID2" H 2560 4580 60  0000 C CNN
+F 1 "Fiducial" H 2540 4480 60  0000 C CNN
+F 2 "sictroller:Fiducial_1mm_CopperTop" H 2550 4550 60  0001 C CNN
+F 3 "" H 2550 4550 60  0001 C CNN
+	1    2550 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID3
+U 1 1 580CA196
+P 3150 4550
+F 0 "FID3" H 3160 4580 60  0000 C CNN
+F 1 "Fiducial" H 3140 4480 60  0000 C CNN
+F 2 "sictroller:Fiducial_1mm_CopperTop" H 3150 4550 60  0001 C CNN
+F 3 "" H 3150 4550 60  0001 C CNN
+	1    3150 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID4
+U 1 1 580CA19C
+P 3750 4550
+F 0 "FID4" H 3760 4580 60  0000 C CNN
+F 1 "Fiducial" H 3740 4480 60  0000 C CNN
+F 2 "sictroller:Fiducial_1mm_CopperTop" H 3750 4550 60  0001 C CNN
+F 3 "" H 3750 4550 60  0001 C CNN
+	1    3750 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID7
+U 1 1 580CA452
+P 3150 4950
+F 0 "FID7" H 3160 4980 60  0000 C CNN
+F 1 "Fiducial" H 3140 4880 60  0000 C CNN
+F 2 "sictroller:Fiducial_1mm_CopperTop" H 3150 4950 60  0001 C CNN
+F 3 "" H 3150 4950 60  0001 C CNN
+	1    3150 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID8
+U 1 1 580CA458
+P 3750 4950
+F 0 "FID8" H 3760 4980 60  0000 C CNN
+F 1 "Fiducial" H 3740 4880 60  0000 C CNN
+F 2 "sictroller:Fiducial_1mm_CopperTop" H 3750 4950 60  0001 C CNN
+F 3 "" H 3750 4950 60  0001 C CNN
+	1    3750 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID5
+U 1 1 580CA6D6
+P 1950 4950
+F 0 "FID5" H 1960 4980 60  0000 C CNN
+F 1 "Fiducial" H 1940 4880 60  0000 C CNN
+F 2 "sictroller:Fiducial_1mm_CopperTop" H 1950 4950 60  0001 C CNN
+F 3 "" H 1950 4950 60  0001 C CNN
+	1    1950 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID6
+U 1 1 580CA6DC
+P 2550 4950
+F 0 "FID6" H 2560 4980 60  0000 C CNN
+F 1 "Fiducial" H 2540 4880 60  0000 C CNN
+F 2 "sictroller:Fiducial_1mm_CopperTop" H 2550 4950 60  0001 C CNN
+F 3 "" H 2550 4950 60  0001 C CNN
+	1    2550 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID11
+U 1 1 580CC37C
+P 3150 5350
+F 0 "FID11" H 3160 5380 60  0000 C CNN
+F 1 "Fiducial" H 3140 5280 60  0000 C CNN
+F 2 "sictroller:Fiducial_1mm_CopperTop" H 3150 5350 60  0001 C CNN
+F 3 "" H 3150 5350 60  0001 C CNN
+	1    3150 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID12
+U 1 1 580CC382
+P 3750 5350
+F 0 "FID12" H 3760 5380 60  0000 C CNN
+F 1 "Fiducial" H 3740 5280 60  0000 C CNN
+F 2 "sictroller:Fiducial_1mm_CopperTop" H 3750 5350 60  0001 C CNN
+F 3 "" H 3750 5350 60  0001 C CNN
+	1    3750 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID9
+U 1 1 580CC388
+P 1950 5350
+F 0 "FID9" H 1960 5380 60  0000 C CNN
+F 1 "Fiducial" H 1940 5280 60  0000 C CNN
+F 2 "sictroller:Fiducial_1mm_CopperTop" H 1950 5350 60  0001 C CNN
+F 3 "" H 1950 5350 60  0001 C CNN
+	1    1950 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID10
+U 1 1 580CC38E
+P 2550 5350
+F 0 "FID10" H 2560 5380 60  0000 C CNN
+F 1 "Fiducial" H 2540 5280 60  0000 C CNN
+F 2 "sictroller:Fiducial_1mm_CopperTop" H 2550 5350 60  0001 C CNN
+F 3 "" H 2550 5350 60  0001 C CNN
+	1    2550 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID15
+U 1 1 580CCCE0
+P 3150 5750
+F 0 "FID15" H 3160 5780 60  0000 C CNN
+F 1 "Fiducial" H 3140 5680 60  0000 C CNN
+F 2 "sictroller:Fiducial_1mm_CopperTop" H 3150 5750 60  0001 C CNN
+F 3 "" H 3150 5750 60  0001 C CNN
+	1    3150 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID16
+U 1 1 580CCCE6
+P 3750 5750
+F 0 "FID16" H 3760 5780 60  0000 C CNN
+F 1 "Fiducial" H 3740 5680 60  0000 C CNN
+F 2 "sictroller:Fiducial_1mm_CopperTop" H 3750 5750 60  0001 C CNN
+F 3 "" H 3750 5750 60  0001 C CNN
+	1    3750 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID13
+U 1 1 580CCCEC
+P 1950 5750
+F 0 "FID13" H 1960 5780 60  0000 C CNN
+F 1 "Fiducial" H 1940 5680 60  0000 C CNN
+F 2 "sictroller:Fiducial_1mm_CopperTop" H 1950 5750 60  0001 C CNN
+F 3 "" H 1950 5750 60  0001 C CNN
+	1    1950 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID14
+U 1 1 580CCCF2
+P 2550 5750
+F 0 "FID14" H 2560 5780 60  0000 C CNN
+F 1 "Fiducial" H 2540 5680 60  0000 C CNN
+F 2 "sictroller:Fiducial_1mm_CopperTop" H 2550 5750 60  0001 C CNN
+F 3 "" H 2550 5750 60  0001 C CNN
+	1    2550 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID?
+U 1 1 580CDCBE
+P 3150 6150
+F 0 "FID?" H 3160 6180 60  0000 C CNN
+F 1 "Fiducial" H 3140 6080 60  0000 C CNN
+F 2 "sictroller:Fiducial_1mm_CopperTop" H 3150 6150 60  0001 C CNN
+F 3 "" H 3150 6150 60  0001 C CNN
+	1    3150 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID?
+U 1 1 580CDCC4
+P 3750 6150
+F 0 "FID?" H 3760 6180 60  0000 C CNN
+F 1 "Fiducial" H 3740 6080 60  0000 C CNN
+F 2 "sictroller:Fiducial_1mm_CopperTop" H 3750 6150 60  0001 C CNN
+F 3 "" H 3750 6150 60  0001 C CNN
+	1    3750 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID?
+U 1 1 580CDCCA
+P 1950 6150
+F 0 "FID?" H 1960 6180 60  0000 C CNN
+F 1 "Fiducial" H 1940 6080 60  0000 C CNN
+F 2 "sictroller:Fiducial_1mm_CopperTop" H 1950 6150 60  0001 C CNN
+F 3 "" H 1950 6150 60  0001 C CNN
+	1    1950 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID?
+U 1 1 580CDCD0
+P 2550 6150
+F 0 "FID?" H 2560 6180 60  0000 C CNN
+F 1 "Fiducial" H 2540 6080 60  0000 C CNN
+F 2 "sictroller:Fiducial_1mm_CopperTop" H 2550 6150 60  0001 C CNN
+F 3 "" H 2550 6150 60  0001 C CNN
+	1    2550 6150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
