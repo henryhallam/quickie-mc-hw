@@ -434,10 +434,10 @@ F 3 "" H 2550 5750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fiducial FID?
+L Fiducial FID19
 U 1 1 580CDCBE
 P 3150 6150
-F 0 "FID?" H 3160 6180 60  0000 C CNN
+F 0 "FID19" H 3160 6180 60  0000 C CNN
 F 1 "Fiducial" H 3140 6080 60  0000 C CNN
 F 2 "sictroller:Fiducial_1mm_CopperTop" H 3150 6150 60  0001 C CNN
 F 3 "" H 3150 6150 60  0001 C CNN
@@ -445,10 +445,10 @@ F 3 "" H 3150 6150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fiducial FID?
+L Fiducial FID20
 U 1 1 580CDCC4
 P 3750 6150
-F 0 "FID?" H 3760 6180 60  0000 C CNN
+F 0 "FID20" H 3760 6180 60  0000 C CNN
 F 1 "Fiducial" H 3740 6080 60  0000 C CNN
 F 2 "sictroller:Fiducial_1mm_CopperTop" H 3750 6150 60  0001 C CNN
 F 3 "" H 3750 6150 60  0001 C CNN
@@ -456,10 +456,10 @@ F 3 "" H 3750 6150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fiducial FID?
+L Fiducial FID17
 U 1 1 580CDCCA
 P 1950 6150
-F 0 "FID?" H 1960 6180 60  0000 C CNN
+F 0 "FID17" H 1960 6180 60  0000 C CNN
 F 1 "Fiducial" H 1940 6080 60  0000 C CNN
 F 2 "sictroller:Fiducial_1mm_CopperTop" H 1950 6150 60  0001 C CNN
 F 3 "" H 1950 6150 60  0001 C CNN
@@ -467,10 +467,10 @@ F 3 "" H 1950 6150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fiducial FID?
+L Fiducial FID18
 U 1 1 580CDCD0
 P 2550 6150
-F 0 "FID?" H 2560 6180 60  0000 C CNN
+F 0 "FID18" H 2560 6180 60  0000 C CNN
 F 1 "Fiducial" H 2540 6080 60  0000 C CNN
 F 2 "sictroller:Fiducial_1mm_CopperTop" H 2550 6150 60  0001 C CNN
 F 3 "" H 2550 6150 60  0001 C CNN
