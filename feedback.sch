@@ -1042,9 +1042,9 @@ Wire Wire Line
 Wire Wire Line
 	5450 5250 5550 5250
 Wire Wire Line
-	6000 5450 5450 5450
+	5450 5450 6000 5450
 Wire Wire Line
-	6000 5350 6000 5450
+	6000 5450 6000 5350
 Wire Wire Line
 	5550 5150 6000 5150
 Wire Wire Line
@@ -1060,7 +1060,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 5650 6000 5900
 Wire Wire Line
-	6000 5700 5700 5700
+	5700 5700 6000 5700
 Wire Wire Line
 	5700 5700 5700 5550
 Connection ~ 6000 5700
