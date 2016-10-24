@@ -1,0 +1,37 @@
+Fab notes for Kittyverter V2:
+
+Tech contact: Henry Hallam henry@kittyhawk.aero
+
+-----
+Board fabrication notes:
+
+6 layers FR-4
+Board dimensions 5.34 x 4.78 inches
+Finished thickness 92 mils +/- 10%
+2 oz copper on outer layers, 7 mil trace / space
+3 oz copper on inner layers, 9 mil trace / space
+Dielectric thickness between layers 2-3, 3-4 and 4-5:
+ 4.5 mils min, 6.5 mils max
+Dielectric thickness between layers 1-2, 5-6:
+ Approx 27 mils, adjust as needed for finished thickness
+
+J4, J5, J6, J8, J9, J11, J12 need plated, routed slots to fit
+0.146 x 0.344 inch rectangular foot for component B6A-PCB:
+https://lugsdirect.com/PDF_Webprint/B10-PCB,B6-PCB(-45),%20PCB-LAYOUT(web).pdf
+A routing bit diameter 0.020" or smaller should be used.
+See the F.Fab layer for a rectangular outline that can be used to
+generate the tool path - the finished edge of the slot should be coincident
+with that rectange.  0.020" drilled holes provide relief in the corners.
+The 0.145" central drilled hole may be used to start the router cut, or
+omitted.
+
+I1, I2, I3 also need plated, routed slots; these are described by the "oval"
+pad type in KiCad.  They are to fit the PFF leadform, see page 27 of
+www.allegromicro.com/~/media/Files/Datasheets/ACS770-Datasheet.ashx
+
+
+-----
+Assembly notes:
+
+B6A-PCB orderable from https://lugsdirect.com/B6A-PCB-HEX.htm or we can furnish.
+I1, I2, I3, T1 should be installed on board underside.
