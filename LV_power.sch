@@ -447,7 +447,7 @@ L D_Schottky D5
 U 1 1 57FB9634
 P 5950 4850
 F 0 "D5" H 5950 4950 50  0000 C CNN
-F 1 "PMEG3050EP" H 5950 4750 50  0000 C CNN
+F 1 "PMEG6045ETP" H 5950 4750 50  0000 C CNN
 F 2 "sictroller:SOD-128" H 5950 4850 50  0001 C CNN
 F 3 "" H 5950 4850 50  0000 C CNN
 	1    5950 4850
@@ -500,12 +500,12 @@ $EndComp
 $Comp
 L C C39
 U 1 1 57FBBD5D
-P 4450 5650
-F 0 "C39" H 4475 5750 50  0000 L CNN
-F 1 "1uF 30V" H 4475 5550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4488 5500 50  0001 C CNN
-F 3 "" H 4450 5650 50  0000 C CNN
-	1    4450 5650
+P 4400 5650
+F 0 "C39" H 4425 5750 50  0000 L CNN
+F 1 "1uF 30V" H 4425 5550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4438 5500 50  0001 C CNN
+F 3 "" H 4400 5650 50  0000 C CNN
+	1    4400 5650
 	1    0    0    -1  
 $EndComp
 Text GLabel 2300 3700 0    60   UnSpc ~ 0
@@ -634,7 +634,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 1150 2700 1150
 Wire Wire Line
-	4150 1150 3700 1150
+	3700 1150 4150 1150
 Wire Wire Line
 	3750 950  3700 950 
 Wire Wire Line
@@ -700,7 +700,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 5050 4700 5050
 Wire Wire Line
-	4700 5050 4700 3700
+	4700 3700 4700 5050
 Wire Wire Line
 	2300 5950 5700 5950
 Wire Wire Line
@@ -748,15 +748,13 @@ Wire Wire Line
 	4150 5400 4150 5950
 Connection ~ 4150 5950
 Wire Wire Line
-	4450 5800 4450 5950
-Connection ~ 4450 5950
+	4400 5800 4400 5950
+Connection ~ 4400 5950
 Wire Wire Line
-	4450 4350 4450 5500
+	4400 4350 4400 5500
 Wire Wire Line
-	4450 5250 4600 5250
-Wire Wire Line
-	4450 4350 3650 4350
-Connection ~ 4450 5250
+	4400 4350 3650 4350
+Connection ~ 4400 5250
 Connection ~ 4350 3700
 Wire Wire Line
 	2950 3700 2650 3700
@@ -905,4 +903,17 @@ Wire Wire Line
 Wire Wire Line
 	3750 1350 3750 1150
 Connection ~ 3750 1150
+$Comp
+L R_Small R52
+U 1 1 584350C6
+P 4500 5250
+F 0 "R52" V 4350 5175 50  0000 L CNN
+F 1 "1k" V 4425 5175 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 4500 5250 50  0001 C CNN
+F 3 "" H 4500 5250 50  0000 C CNN
+	1    4500 5250
+	0    1    1    0   
+$EndComp
+Text Notes 3225 6450 0    60   ~ 0
+TODO: 450V soak test to ensure adequate primary-auxiliary isolation in T1
 $EndSCHEMATC

@@ -77,9 +77,9 @@ PWM_CL
 Text HLabel 6200 2250 2    60   Output ~ 0
 PWM_AL
 Text HLabel 6200 4550 2    60   Input ~ 0
-~FLT_DESAT
+FLT_DESAT
 Text HLabel 6200 5250 2    60   Input ~ 0
-PWR_RDY
+~PWR_RDY
 Text HLabel 6200 4950 2    60   Output ~ 0
 ~PWR_RESET
 $Comp
