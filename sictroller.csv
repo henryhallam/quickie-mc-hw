@@ -1,0 +1,66 @@
+Title,SiCtroller
+Revision,1.0
+Date,2016-07-31
+Generated,Tue 16 Aug 2016 05:07:08 PM PDT
+Company,Pericynthion Heavy Industries
+Comment 1,
+Comment 2,
+Comment 3,
+Comment 4,
+Total Parts,120
+Total Unique Parts,45
+
+
+
+Ref,Qty,Value,Footprint,SKU,Supplier,
+C1 ,1,10uF 50VCapacitors_SMD:C_1210, , 
+C3 ,1,22uF 16VCapacitors_SMD:C_1210, , 
+C4 ,1,100uF 16Vsictroller:C_6x5, , 
+C2 ,1,470nFCapacitors_SMD:C_0603, , 
+C6 C5 ,2,10uFCapacitors_SMD:C_1210, , 
+C10 ,1,100 nF C0G 1%Capacitors_SMD:C_1210,PCF1189CT-ND, 
+C11 C15 C16 ,3,100 nF C0G 1%Capacitors_SMD:C_1210, , 
+C14 C20 C22 C23 C24 C8 C7 C13 C12 C19 C18 ,11,DNPCapacitors_SMD:C_0603, , 
+C9 C17 C21 C26 C25 C27 ,6,1uFCapacitors_SMD:C_0603, , 
+C31 C28 C29 C30 C32 C36 C35 C34 C33 ,9,470pFCapacitors_SMD:C_0603, , 
+D1 ,1,D_Schottky_x2_KCom_AKATO_SOT_Packages_SMD:SOT-323,497-5550-1-ND,Digikey
+D2 ,1,RS1MSWFQDiodes_SMD:SOD-123,745C101103JPCT-ND, 
+D3 D4 ,2,RS1MSWFQDiodes_SMD:SOD-123, , 
+D5 ,1,BZT52B6V8Diodes_SMD:SOD-123, , 
+J4 J8 J9 J10 J11 ,5,CONN_01X03sictroller:Molex-SL-3POS-RA, , 
+J1 ,1,CONN_01X08Connectors_Molex:Connector_Molex_PicoBlade_53261-0871, , 
+J2 ,1,CONN_01X12Connectors_Molex:Connector_Molex_PicoBlade_53261-1271, , 
+J3 ,1,TMDSCNCD28069sictroller:5390213-1, , 
+J5 ,1,BARREL_JACKsictroller:PJ-102B,CP-102B-ND, 
+J7 ,1,CONN_01X02sictroller:Molex-SL-2POS-RA, , 
+J6 ,1,MICROFIT-10Connectors_Molex:Connector_Microfit3_Header_02x05_Angled_43045-100x, , 
+J12 ,1,CONN_02X13Connect:IDC_Header_Straight_26pins, , 
+Q1 ,1,FDG1024NZTO_SOT_Packages_SMD:SC-70-6, , 
+R1 ,1,9.1R 2WResistors_ThroughHole:Resistor_Horizontal_RM15mm, , 
+R2 ,1,0R/BEADResistors_SMD:R_0603, , 
+R8 ,1,150K 1% 250V 0.5WResistors_SMD:R_0805,667-ERJ-P06F1503V,Mouser
+R9 R11 R12 R17 R18 R20 R21 ,7,150K 1% 250V 0.5WResistors_SMD:R_0805, , 
+R10 R13 R19 R22 ,4,1.8K 1%Resistors_SMD:R_0603, , 
+R14 R15 ,2,DNPResistors_SMD:R_0603, , 
+R26 R28 R32 R35 R6 R23 R30 ,7,1.8KResistors_SMD:R_0603, , 
+R27 R29 R33 R36 R7 R24 R31 ,7,3.3KResistors_SMD:R_0603, , 
+R5 ,1,2.2KResistors_SMD:R_0603, , 
+R4 R16 R25 ,3,1kResistors_SMD:R_0603, , 
+R3 ,1,0RResistors_SMD:R_0603, , 
+R34 ,1,750Resistors_SMD:R_0603, , 
+R38 ,1,10kResistors_SMD:R_0603, , 
+R39 ,1,5k1Resistors_SMD:R_0603, , 
+R37 ,1,745C101103 (10k)Resistors_SMD:R_Array_Convex_5x1206,745C101103JPCT-ND, 
+U2 ,1,APE8865N-33-HF-3TO_SOT_Packages_SMD:SOT-23, , 
+U1 ,1,V7805-500-SMTsictroller:V78-500-SMT,490-V7805-500-SMT-TR,Mouser
+U3 U4 U5 ,3,MAX4195SMD_Packages:SOIC-8-N, , 
+U6 ,1,74LVC8T245Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm, , 
+U7 ,1,74LVC2G04TO_SOT_Packages_SMD:TSOT-6-MK06A, , 
+W3 W4 W5 W6 W18 W20 W7 W8 W9 ,9,TEST_1PMeasurement_Points:Measurement_Point_Round-TH_Small, , 
+W22 W19 W21 W23 W12 W15 W10 W13 W16 W2 W1 ,11,TEST_1PMeasurement_Points:Measurement_Point_Round-SMD-Pad_Small, , 
+
+
+
+
+BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git)
+Generated Tue 16 Aug 2016 05:07:08 PM PDT

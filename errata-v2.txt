@@ -1,0 +1,10 @@
+~PWR_RESET pulldown R54 insufficient - system will attempt to turn on all switches at powerup. 
+Replace with 1k and have software ensure PWM outputs are low before raising ~PWR_RESET.
+
+Fault LED indicates not-fault.
+
+VIPER26 aux supply unstable.  Add 1K resistor in series with D6.
+
+D5 reverse voltage rating marginal.  Replace with PMEG6045 or similar.
+
+Tempo populated D34 backwards on some boards
