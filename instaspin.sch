@@ -1457,58 +1457,12 @@ CAN (indirect user interface)
 Text Notes 650  4350 0    60   ~ 0
 5V rail monitoring
 $Comp
-L CONN_01X05 J14
-U 1 1 58061B8A
-P 900 3550
-F 0 "J14" H 900 3850 50  0000 C CNN
-F 1 "CONN_01X05" V 1000 3550 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_PicoBlade_53261-0571" H 900 3550 50  0001 C CNN
-F 3 "" H 900 3550 50  0000 C CNN
-	1    900  3550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1150 3750 1100 3750
-$Comp
-L +3.3VA #PWR043
-U 1 1 58062578
-P 1150 3350
-F 0 "#PWR043" H 1150 3200 50  0001 C CNN
-F 1 "+3.3VA" H 1150 3490 50  0000 C CNN
-F 2 "" H 1150 3350 50  0000 C CNN
-F 3 "" H 1150 3350 50  0000 C CNN
-	1    1150 3350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1150 3350 1100 3350
-Wire Wire Line
-	1100 3450 1450 3450
-Wire Wire Line
-	1100 3550 1450 3550
-Wire Wire Line
-	1100 3650 1450 3650
-Text Label 1450 3450 2    60   ~ 0
-ADC_A2
-Text Label 1450 3550 2    60   ~ 0
-ADC_A1
-Text Label 1450 3650 2    60   ~ 0
-ADC_B6
-Text Label 3200 4150 2    60   ~ 0
-ADC_A2
-Text Label 3200 4250 2    60   ~ 0
-ADC_A1
-Text Label 3200 4450 2    60   ~ 0
-ADC_B6
-Text Notes 750  3100 0    60   ~ 0
-Aux (e.g. accel)
-$Comp
 L R TIE1
 U 1 1 580674D6
 P 4600 6250
 F 0 "TIE1" V 4680 6250 50  0000 C CNN
 F 1 "TIE" V 4600 6250 50  0000 C CNN
-F 2 "sictroller:NetTie-_Connected_Small" V 4530 6250 50  0001 C CNN
+F 2 "sictroller:NetTie-_Connected_3x5" V 4530 6250 50  0001 C CNN
 F 3 "" H 4600 6250 50  0000 C CNN
 	1    4600 6250
 	0    1    1    0   
@@ -1599,17 +1553,6 @@ F 3 "" H 1050 5100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR051
-U 1 1 5806A6A5
-P 1150 3750
-F 0 "#PWR051" H 1150 3500 50  0001 C CNN
-F 1 "GNDA" H 1150 3600 50  0000 C CNN
-F 2 "" H 1150 3750 50  0000 C CNN
-F 3 "" H 1150 3750 50  0000 C CNN
-	1    1150 3750
-	1    0    0    -1  
-$EndComp
-$Comp
 L GNDD #PWR052
 U 1 1 58080E9A
 P 4300 5500
@@ -1697,10 +1640,10 @@ Wire Wire Line
 Wire Wire Line
 	2950 7300 2950 7250
 $Comp
-L GNDD #PWR?
+L GNDD #PWR054
 U 1 1 58CC6202
 P 2950 7550
-F 0 "#PWR?" H 2950 7300 50  0001 C CNN
+F 0 "#PWR054" H 2950 7300 50  0001 C CNN
 F 1 "GNDD" H 2950 7400 50  0000 C CNN
 F 2 "" H 2950 7550 50  0000 C CNN
 F 3 "" H 2950 7550 50  0000 C CNN
@@ -1711,4 +1654,7 @@ Wire Wire Line
 	2950 7500 2950 7550
 Text Notes 3150 7500 0    60   ~ 0
 Pulldown for Wait->Flash boot
+NoConn ~ 3200 4150
+NoConn ~ 3200 4250
+NoConn ~ 3200 4450
 $EndSCHEMATC
