@@ -1,0 +1,34 @@
+Mechanical:
+* Moved C36 away from transformer for physical clearance
+
+Sensing Performance:
+* C133-135 Added 1uF bulk capacitance to Hall sensors
+* U21-U23 + Caps Added to create psuedo diff input
+* Moved R26,40,44 + R32,33,34,35 near to uC so filter is functional
+** I know this gain/divide could be done in opamp not res divider, but this is low risk path
+** I did not create net-tie for GND so there are explicit cutouts under Via so planes don't create local short to GND
+* New layer stackup, In1-In4 Analog Grounds, In3 Analog Supply, In 2 Current sense signals
+* Small amount of stitching, didn't make good use of the layers trying to keep HV sense widely spaced
+* Moved 1v8 Digital Rail to East of uC
+* Moved Analog supply ties to between Current and Voltage sense.
+** Maybe not a good place for 3v3 reg.
+
+JTAG:
+* TRST is now pulldown so we boot from Flash
+
+Safety:
+* Still not very safe
+* C61,C62 Swapped Y caps for THT Y1 parts
+* R53,R57 Added extra footprint in resistor divider path 
+* TH1,TH2 Removed, encouraged board to flash over. Unused anyway
+
+Misc:
+* Removed Aux ADC connector
+* Removed Novelty sized test points on sense signals
+* MELFs: Build with 15R
+
+
+Outstanding Issues:
+* F1, Fuse should be removed from return path
+* U11 still needs suitable replacement
+* Many skinny traces used in current paths
