@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:sictroller-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -1169,7 +1170,7 @@ F 3 "" H 3350 2300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D33
+L LED-RESCUE-sictroller D33
 U 1 1 5808F624
 P 3050 2300
 F 0 "D33" H 3050 2400 50  0000 C CNN

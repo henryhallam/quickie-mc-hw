@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:sictroller-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -1685,9 +1686,11 @@ F 3 "" H 7050 3750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D34
+L LED-RESCUE-sictroller D34
 U 1 1 580C54AB
 P 7050 4050
+AR Path="/580C54AB" Ref="D34"  Part="1" 
+AR Path="/57A162B5/580C54AB" Ref="D34"  Part="1" 
 F 0 "D34" H 7050 4150 50  0000 C CNN
 F 1 "LED" H 7050 3950 50  0000 C CNN
 F 2 "LEDs:LED_0603" H 7050 4050 50  0001 C CNN

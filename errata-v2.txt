@@ -13,3 +13,17 @@ Tempo populated D34 backwards on some boards
 
 
 Above issues fixed in V2.1.
+
+
+Add polyfuse in series with +5VD output to thrust ctrl lever to prevent short in that harness from taking down board.
+Something dies horribly when system tries to spin motor with HV only connected through precharge resistor.
+Add TVS on 5V rail
+Larger vias for 5V supplies to gate drive? (320 mA).  Also from Viper.  Actually maybe they're fine.
+Convenient connector for 5V.
+Better voltage reference?
+Precision resistor for R48
+Just delete the 22R resistor, inductor and fuse between HV and Viper input.
+Shield the cable to the Emrax thermistor
+tRST should have pull-down not pull-up to boot standalone
+
+

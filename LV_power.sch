@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:sictroller-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -700,7 +701,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 5050 4700 5050
 Wire Wire Line
-	4700 3700 4700 5050
+	4700 5050 4700 3700
 Wire Wire Line
 	2300 5950 5700 5950
 Wire Wire Line
@@ -916,4 +917,12 @@ F 3 "" H 4500 5250 50  0000 C CNN
 $EndComp
 Text Notes 3225 6450 0    60   ~ 0
 TODO: 450V soak test to ensure adequate primary-auxiliary isolation in T1
+Text Notes 2025 2150 0    60   ~ 0
+1V8 supply:\nXCL221 rated 500 mA output\nTMS320F28069M Idd worst-case max 220 mA
+Text Notes 4925 2275 0    60   ~ 0
+3.3V analog supply:\nTPS76201 rated 150 mA output\nTMS320F28069M Idda worst-case max 22 mA\nAlso exported to aux connector J14
+Text Notes 7675 2400 0    60   ~ 0
+3.3V digital supply:\nTPS76201 rated 150 mA output\nTMS320F28069M Iddio+Idd3vfl worst-case max 60 mA\n (exc IO pin currents)\nADM3053 and level shifters < 10 mA total\nLEDs max 16 mA (4 total @ 4 mA each)\n
+Text Notes 6100 5875 0    60   ~ 0
+5V supply:\nLimited by T1 saturation current (425 mA).\nApprox 11 W output i.e. 2.2 A @ 5 V.\nActual usage seems to be around 1.1 A.
 $EndSCHEMATC
