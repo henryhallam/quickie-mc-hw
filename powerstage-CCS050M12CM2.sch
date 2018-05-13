@@ -1,12 +1,9 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
+LIBS:sictroller-rescue
 LIBS:power
 LIBS:device
-LIBS:transistors
-LIBS:conn
 LIBS:linear
 LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
@@ -21,18 +18,16 @@ LIBS:audio
 LIBS:interface
 LIBS:digital-audio
 LIBS:philips
-LIBS:display
 LIBS:cypress
 LIBS:siliconi
 LIBS:opto
 LIBS:atmel
 LIBS:contrib
-LIBS:valves
 LIBS:sictroller
 LIBS:TMDSCNCD28069
 LIBS:74LVC8T245
 LIBS:sictroller-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -1163,7 +1158,7 @@ F 3 "" H 3350 2300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D33
+L LED-RESCUE-sictroller D33
 U 1 1 5808F624
 P 3050 2300
 F 0 "D33" H 3050 2400 50  0000 C CNN
